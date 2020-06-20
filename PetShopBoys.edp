@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="PetShopBoys"/>
+    <VCProjectID val="0"/>
+    <VCActive val="Y"/>
+    <WorkOffline val="N"/>
+    <VCUseGitPlugin val="Y"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{D884A900-7054-4FE7-BCDA-583278F84E94}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="14061.00"/>
+  </_Project>
+
+</Application>

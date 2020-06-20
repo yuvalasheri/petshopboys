@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12030"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="14"/>
+    <LastIsnFolder val="4"/>
+    <Folders>
+      <Folder id="1">
+        <Name val="Customers"/>
+        <StartsAt val="1"/>
+        <NumberOfEntries val="3"/>
+      </Folder>
+      <Folder id="2">
+        <Name val="Products"/>
+        <StartsAt val="4"/>
+        <NumberOfEntries val="3"/>
+      </Folder>
+      <Folder id="3">
+        <Name val="Orders"/>
+        <StartsAt val="7"/>
+        <NumberOfEntries val="3"/>
+      </Folder>
+      <Folder id="4">
+        <Name val="General"/>
+        <StartsAt val="10"/>
+        <NumberOfEntries val="1"/>
+      </Folder>
+    </Folders>
+  </Header>
+
+  <ProgramsRepositoryOutLine>
+    <Programs>
+      <Program id="1"/>
+      <Program id="2"/>
+      <Program id="4"/>
+      <Program id="9"/>
+      <Program id="3"/>
+      <Program id="8"/>
+      <Program id="10"/>
+      <Program id="6"/>
+      <Program id="5"/>
+      <Program id="7"/>
+      <Program id="11"/>
+    </Programs>
+  </ProgramsRepositoryOutLine>
+
+</Application>

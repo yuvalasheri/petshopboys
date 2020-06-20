@@ -1,0 +1,3 @@
+PetShopBoys = DBMS, 10, , PetShopBoy.SQLite, , , , , NoMagicRecordLock, +
+ChangeFileInToolkit, CheckDefinition, CheckKey, FileLocks, , , CheckExist, +
+0, , NoAS400SrvrSort,
