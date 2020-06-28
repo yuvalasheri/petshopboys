@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -8,10 +9,11 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Customers list" ISN_2="1" LastIsn="1" id="1048591">
+        <Header Description="Customers list" ISN_2="1" LastIsn="2" id="1048591">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -25,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737604" _time="51600" date="28/06/2020" time="14:20:00"/>
+          <LastModified _date="737604" _time="51766" date="28/06/2020" time="14:22:46"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -235,7 +237,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="1048579" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+          <LogicUnit id="1048579" propagate="78">
             <Level val="T"/>
             <Type val="P"/>
             <Scope val="S"/>
@@ -257,7 +259,7 @@
                   <Lock val="N"/>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
-                  <DestSubformName val="Animels"/>
+                  <DestSubformName val="mysf1"/>
                   <RetainFocus val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -271,9 +273,9 @@
           <FormEntry _last_isn="19" _last_test_id="19" id="1">
             <PropertyList model="FORM_GUI0">
               <Width id="23" val="799"/>
+              <Height id="24" val="423"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Customers list"/>
-              <Height id="24" val="423"/>
             </PropertyList>
             <Control _test_id="1" id="1048577">
               <PropertyList model="CTRL_GUI0_TABLE">
@@ -530,14 +532,14 @@
                 <Y id="22" val="227"/>
                 <Width id="23" val="477"/>
                 <Height id="24" val="140"/>
-                <ControlName id="46" val="Animels"/>
+                <ControlName id="46" val="mysf1"/>
                 <TabOrder id="314" val="10"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
         <Task MainProgram="N">
-          <Header Description="animals" ISN_2="1048578" id="1048591">
+          <Header Description="animals" ISN_2="1048578" LastIsn="2" id="1048591">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -716,4 +718,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
