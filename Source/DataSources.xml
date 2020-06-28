@@ -2,7 +2,7 @@
  
 <Header>
 
-  <Version val="12030"/>
+  <Version val="14061.00"/>
 
   <WithIsn val="Y"/>
 
@@ -12,13 +12,13 @@
 
   <LastIsnFolder val="0"/>
 
-  <Folders/>
-
 </Header>
+
+<DataRepositoryProperties/>
  <DataSourceRepository>
   <DataObjects>
  
-<DataObject PhysicalName="Customers" Resident="N" data_source="PetShopBoys" id="1" name="Customers">
+<DataObject PhysicalName="Customers" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="1" name="Customers">
 
   <Encrypt val="N"/>
 
@@ -37,10 +37,6 @@
   <Position val="D"/>
 
   <PositionIndex val="-2"/>
-
-  <RowLength val="1674"/>
-
-  <ColumnsLastIsn val="9"/>
 
   <IndexesLastIsn val="2"/>
 
@@ -180,12 +176,12 @@
       <Segments>
         <Segment>
           <Size val="20"/>
-          <Column val="2"/>
+          <Column val="3"/>
           <Order val="A"/>
         </Segment>
         <Segment>
           <Size val="20"/>
-          <Column val="3"/>
+          <Column val="2"/>
           <Order val="A"/>
         </Segment>
         <Segment>
@@ -199,8 +195,10 @@
 
   <ForeignKeys/>
 
+  <WebS/>
+
 </DataObject> 
-<DataObject PhysicalName="Customers_Animals" Resident="N" data_source="PetShopBoys" id="2" name="Customers Animals">
+<DataObject PhysicalName="Customers_Animals" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="2" name="Customers Animals">
 
   <Encrypt val="N"/>
 
@@ -219,10 +217,6 @@
   <Position val="D"/>
 
   <PositionIndex val="-2"/>
-
-  <RowLength val="932"/>
-
-  <ColumnsLastIsn val="5"/>
 
   <IndexesLastIsn val="1"/>
 
@@ -314,8 +308,10 @@
 
   <ForeignKeys/>
 
+  <WebS/>
+
 </DataObject> 
-<DataObject PhysicalName="Products" Resident="N" data_source="PetShopBoys" id="3" name="Products">
+<DataObject PhysicalName="Products" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="3" name="Products">
 
   <Encrypt val="N"/>
 
@@ -334,10 +330,6 @@
   <Position val="D"/>
 
   <PositionIndex val="-2"/>
-
-  <RowLength val="742"/>
-
-  <ColumnsLastIsn val="4"/>
 
   <IndexesLastIsn val="2"/>
 
@@ -436,8 +428,10 @@
 
   <ForeignKeys/>
 
+  <WebS/>
+
 </DataObject> 
-<DataObject PhysicalName="Orders" Resident="N" data_source="PetShopBoys" id="4" name="Orders">
+<DataObject PhysicalName="Orders" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="4" name="Orders">
 
   <Encrypt val="N"/>
 
@@ -456,10 +450,6 @@
   <Position val="D"/>
 
   <PositionIndex val="-1"/>
-
-  <RowLength val="1382"/>
-
-  <ColumnsLastIsn val="7"/>
 
   <IndexesLastIsn val="3"/>
 
@@ -614,8 +604,10 @@
 
   <ForeignKeys/>
 
+  <WebS/>
+
 </DataObject> 
-<DataObject PhysicalName="Orders_Lines" Resident="N" data_source="PetShopBoys" id="5" name="Orders Lines">
+<DataObject PhysicalName="Orders_Lines" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="5" name="Orders Lines">
 
   <Encrypt val="N"/>
 
@@ -634,10 +626,6 @@
   <Position val="D"/>
 
   <PositionIndex val="1"/>
-
-  <RowLength val="1110"/>
-
-  <ColumnsLastIsn val="8"/>
 
   <IndexesLastIsn val="2"/>
 
@@ -726,12 +714,12 @@
       <Segments>
         <Segment>
           <Size val="4"/>
-          <Column val="1"/>
+          <Column val="3"/>
           <Order val="A"/>
         </Segment>
         <Segment>
           <Size val="4"/>
-          <Column val="2"/>
+          <Column val="4"/>
           <Order val="A"/>
         </Segment>
       </Segments>
@@ -749,17 +737,17 @@
       <Segments>
         <Segment>
           <Size val="4"/>
+          <Column val="5"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="4"/>
           <Column val="3"/>
           <Order val="A"/>
         </Segment>
         <Segment>
           <Size val="4"/>
-          <Column val="1"/>
-          <Order val="A"/>
-        </Segment>
-        <Segment>
-          <Size val="4"/>
-          <Column val="2"/>
+          <Column val="4"/>
           <Order val="A"/>
         </Segment>
       </Segments>
@@ -767,6 +755,8 @@
   </Indexes>
 
   <ForeignKeys/>
+
+  <WebS/>
 
 </DataObject>  </DataObjects>
  </DataSourceRepository>
