@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Customers list" ISN_2="1" LastIsn="1" id="1048592">
+        <Header Description="Customers list2" ISN_2="1" LastIsn="1" id="1048592">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737604" _time="49514" date="28/06/2020" time="13:45:14"/>
+          <LastModified _date="737604" _time="50277" date="28/06/2020" time="13:57:57"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -124,7 +124,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="11"/>
+                  <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -137,7 +137,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="12"/>
+                  <_DitIndexForToolkit val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -150,7 +150,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="13"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -163,7 +163,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="14"/>
+                  <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -176,33 +176,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="15"/>
-                  <DIFF_UPDATE val="T"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
-                <Select FieldID="1048582" FlowIsn="1048584" id="1048582">
-                  <Column val="6"/>
-                  <Type val="R"/>
-                  <ExposedToRoute val="N"/>
-                  <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="16"/>
-                  <DIFF_UPDATE val="T"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
-                <Select FieldID="1048583" FlowIsn="1048585" id="1048583">
-                  <Column val="7"/>
-                  <Type val="R"/>
-                  <ExposedToRoute val="N"/>
-                  <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="17"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -215,7 +189,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="18"/>
+                  <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -228,7 +202,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="19"/>
+                  <_DitIndexForToolkit val="8"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -239,91 +213,26 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="19" _last_test_id="19" id="1">
+          <FormEntry _last_isn="34" _last_test_id="34" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="695"/>
+              <Model id="1"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Customers list"/>
+              <FormName id="311" valUnicode="Customers list2"/>
             </PropertyList>
-            <Control _test_id="1" id="1048577">
+            <Control _test_id="20" id="1048596">
               <PropertyList model="CTRL_GUI0_TABLE">
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="8"/>
                 <Y id="22" val="8"/>
-                <Width id="23" val="780"/>
+                <Width id="23" val="615"/>
                 <Height id="24" val="182"/>
                 <TitleHeight id="79" val="12"/>
                 <RowHeight id="80" val="13"/>
-                <Elements id="81" val="9"/>
-                <_WindowWidth id="241" val="780"/>
+                <Elements id="81" val="7"/>
+                <_WindowWidth id="241" val="615"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="11" id="1048587">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="51"/>
-                <ControlLayer id="25" val="1"/>
-                <Sortable id="134" val="Y"/>
-                <ColumnTitle id="139" valUnicode="Customer ID"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="12" id="1048588">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="106"/>
-                <ControlLayer id="25" val="2"/>
-                <Sortable id="134" val="Y"/>
-                <ColumnTitle id="139" valUnicode="Last Name"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="13" id="1048589">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="106"/>
-                <ControlLayer id="25" val="3"/>
-                <ColumnTitle id="139" valUnicode="First Name"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="14" id="1048590">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="60"/>
-                <ControlLayer id="25" val="4"/>
-                <ColumnTitle id="139" valUnicode="Member Since"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="15" id="1048591">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="63"/>
-                <ControlLayer id="25" val="5"/>
-                <ColumnTitle id="139" valUnicode="Phone Number"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="16" id="1048592">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="59"/>
-                <ControlLayer id="25" val="6"/>
-                <ColumnTitle id="139" valUnicode="House Number"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="17" id="1048593">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="106"/>
-                <ControlLayer id="25" val="7"/>
-                <ColumnTitle id="139" valUnicode="Street"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="18" id="1048594">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="106"/>
-                <ControlLayer id="25" val="8"/>
-                <ColumnTitle id="139" valUnicode="City"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="19" id="1048595">
-              <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="106"/>
-                <ControlLayer id="25" val="9"/>
-                <ColumnTitle id="139" valUnicode="Zip Code"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" PDOD="1" _test_id="2" id="1048578">
+            <Control ISN_FATHER="1048596" PDOD="1" _test_id="21" id="1048597">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1048577"/>
@@ -337,12 +246,11 @@
                 <Data FieldID="1048577" id="43"/>
                 <ControlName id="46" val="Customer ID"/>
                 <Style id="63" val="1"/>
-                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1048577" _test_id="3" id="1048579">
+            <Control ISN_FATHER="1048596" _test_id="22" id="1048598">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1048578"/>
@@ -356,12 +264,11 @@
                 <Data FieldID="1048578" id="43"/>
                 <ControlName id="46" val="Last Name"/>
                 <Style id="63" val="1"/>
-                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1048577" _test_id="4" id="1048580">
+            <Control ISN_FATHER="1048596" _test_id="23" id="1048599">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1048579"/>
@@ -375,12 +282,11 @@
                 <Data FieldID="1048579" id="43"/>
                 <ControlName id="46" val="First Name"/>
                 <Style id="63" val="1"/>
-                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="5" id="1048581">
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="24" id="1048600">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1048580"/>
@@ -394,12 +300,11 @@
                 <Data FieldID="1048580" id="43"/>
                 <ControlName id="46" val="Member Since"/>
                 <Style id="63" val="1"/>
-                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="6" id="1048582">
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="25" id="1048601">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1048581"/>
@@ -413,85 +318,95 @@
                 <Data FieldID="1048581" id="43"/>
                 <ControlName id="46" val="Phone Number"/>
                 <Style id="63" val="1"/>
-                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1048577" PDOD="128" _test_id="7" id="1048583">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="1048582"/>
-                </Model>
-                <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="398"/>
-                <Y id="22" val="23"/>
-                <Width id="23" val="32"/>
-                <Height id="24" val="10"/>
-                <ControlLayer id="25" val="6"/>
-                <Data FieldID="1048582" id="43"/>
-                <ControlName id="46" val="House Number"/>
-                <Style id="63" val="1"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="6"/>
-                <Border id="452"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" _test_id="8" id="1048584">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="1048583"/>
-                </Model>
-                <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="457"/>
-                <Y id="22" val="23"/>
-                <Width id="23" val="99"/>
-                <Height id="24" val="10"/>
-                <ControlLayer id="25" val="7"/>
-                <Data FieldID="1048583" id="43"/>
-                <ControlName id="46" val="Street"/>
-                <Style id="63" val="1"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="7"/>
-                <Border id="452"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1048577" _test_id="9" id="1048585">
+            <Control ISN_FATHER="1048596" _test_id="26" id="1048602">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1048584"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="563"/>
+                <X id="21" val="398"/>
                 <Y id="22" val="23"/>
                 <Width id="23" val="99"/>
                 <Height id="24" val="10"/>
-                <ControlLayer id="25" val="8"/>
+                <ControlLayer id="25" val="6"/>
                 <Data FieldID="1048584" id="43"/>
                 <ControlName id="46" val="City"/>
                 <Style id="63" val="1"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="8"/>
+                <TabOrder id="314" val="6"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1048577" _test_id="10" id="1048586">
+            <Control ISN_FATHER="1048596" _test_id="27" id="1048603">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1048585"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="669"/>
+                <X id="21" val="504"/>
                 <Y id="22" val="23"/>
                 <Width id="23" val="99"/>
                 <Height id="24" val="10"/>
-                <ControlLayer id="25" val="9"/>
+                <ControlLayer id="25" val="7"/>
                 <Data FieldID="1048585" id="43"/>
                 <ControlName id="46" val="Zip Code"/>
                 <Style id="63" val="1"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="9"/>
+                <TabOrder id="314" val="7"/>
                 <Border id="452"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="28" id="1048604">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="51"/>
+                <ControlLayer id="25" val="1"/>
+                <Sortable id="134" val="Y"/>
+                <ColumnTitle id="139" valUnicode="Customer ID"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="29" id="1048605">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="106"/>
+                <ControlLayer id="25" val="2"/>
+                <Sortable id="134" val="Y"/>
+                <ColumnTitle id="139" valUnicode="Last Name"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="30" id="1048606">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="106"/>
+                <ControlLayer id="25" val="3"/>
+                <ColumnTitle id="139" valUnicode="First Name"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="31" id="1048607">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="60"/>
+                <ControlLayer id="25" val="4"/>
+                <ColumnTitle id="139" valUnicode="Member Since"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="32" id="1048608">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="63"/>
+                <ControlLayer id="25" val="5"/>
+                <ColumnTitle id="139" valUnicode="Phone Number"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="33" id="1048609">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="106"/>
+                <ControlLayer id="25" val="6"/>
+                <ColumnTitle id="139" valUnicode="City"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1048596" PDOD="128" _test_id="34" id="1048610">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="106"/>
+                <ControlLayer id="25" val="7"/>
+                <ColumnTitle id="139" valUnicode="Zip Code"/>
               </PropertyList>
             </Control>
           </FormEntry>
