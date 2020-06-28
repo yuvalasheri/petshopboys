@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737604" _time="49514" date="28/06/2020" time="13:45:14"/>
+          <LastModified _date="737604" _time="50829" date="28/06/2020" time="14:07:09"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -239,9 +239,10 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="19" _last_test_id="19" id="1">
+          <FormEntry _last_isn="21" _last_test_id="21" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="695"/>
+              <Width id="23" val="799"/>
+              <Height id="24" val="423"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Customers list"/>
             </PropertyList>
@@ -492,6 +493,16 @@
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="9"/>
                 <Border id="452"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="21" id="22020117">
+              <PropertyList model="CTRL_GUI0_SUBFORM">
+                <X id="21" val="133"/>
+                <Y id="22" val="227"/>
+                <Width id="23" val="477"/>
+                <Height id="24" val="140"/>
+                <ControlName id="46" val="Animels"/>
+                <TabOrder id="314" val="10"/>
               </PropertyList>
             </Control>
           </FormEntry>
