@@ -8,6 +8,7 @@
 *.xpaproj
 /developer.ini
 /startdev.bat
-/temp/*.pdf
+/temp/*
 
-*.XRF
+/*.optback
+/CrossRef.XRF
