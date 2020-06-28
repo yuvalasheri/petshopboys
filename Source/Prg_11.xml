@@ -2,24 +2,24 @@
 <Application>
 
   <Header>
-    <Version val="12030"/>
+    <Version val="14061.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
     <InIndex val="N"/>
+    <UniqueISNConvState val="12"/>
   </Header>
 
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Output Device" ISN_2="1" LastIsn="2" id="11">
+        <Header Description="Output Device" ISN_2="1" LastIsn="1" id="11">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
             <TSK_PARAMS val="4"/>
-            <ParametersCount val="6"/>
             <ParametersAttributes>
               <Attr MgAttr="A"/>
               <Attr MgAttr="A"/>
@@ -30,14 +30,15 @@
           <SqlWhereExist val="N"/>
           <TaskType val="O"/>
           <External val="N"/>
+          <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734588" _time="40828" date="26/03/2012" time="11:20:28"/>
+          <LastModified _date="737604" _time="44354" date="28/06/2020" time="12:19:14"/>
         </Header>
         <ItemIsn val="12"/>
         <Resource>
           <Columns>
-            <Column id="6" name="pio.Print to">
+            <Column id="1048577" name="pio.Print to">
               <Comment val="/* Print To: Screen, PDF, Printer*/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
@@ -48,7 +49,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="7" name="pio.PDF File Name">
+            <Column id="1048578" name="pio.PDF File Name">
               <Comment val="/* PDF File Name (Full Path)*/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
@@ -58,7 +59,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="8" name="pio.Copies">
+            <Column id="1048579" name="pio.Copies">
               <Comment val="/*Printing Copies*/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
@@ -69,7 +70,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="12" name="po.Execute">
+            <Column id="1048580" name="po.Execute">
               <Comment val="/*Execute the printing*/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" comp="-1" id="1" obj="10"/>
@@ -78,7 +79,7 @@
                 <UserType id="180"/>
               </PropertyList>
             </Column>
-            <Column id="1" name="v.Print to">
+            <Column id="1048581" name="v.Print to">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Range id="98" valUnicode="Printer,Screen,PDF"/>
@@ -88,7 +89,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="2" name="v.PDF File Name">
+            <Column id="1048582" name="v.PDF File Name">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="260"/>
@@ -97,7 +98,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="3" name="v.Copies">
+            <Column id="1048583" name="v.Copies">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="2"/>
@@ -107,7 +108,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="10" name="CHG_REASON_v.Print to">
+            <Column id="1048584" name="CHG_REASON_v.Print to">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="2"/>
@@ -117,7 +118,7 @@
                 <_Negative id="192"/>
               </PropertyList>
             </Column>
-            <Column id="11" name="CHG_PRV_v.Print to">
+            <Column id="1048585" name="CHG_PRV_v.Print to">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Range id="98" valUnicode="Printer,Screen,PDF"/>
@@ -129,7 +130,6 @@
               </PropertyList>
             </Column>
           </Columns>
-          <ColumnsLastIsn val="12"/>
         </Resource>
         <Information>
           <Key>
@@ -188,31 +188,16 @@
             <Direction val="V"/>
           </BOX>
         </Information>
-        <INT_RECOMP_INFO>
-          <v>2</v>
-          <v>3</v>
-          <v>4</v>
-          <v>5</v>
-          <v>9</v>
-          <v>8</v>
-          <v>7</v>
-        </INT_RECOMP_INFO>
         <TaskLogic>
           <LogicUnit id="1" propagate="78">
             <Level val="R"/>
             <Type val="M"/>
-            <_DspTemplate val="0"/>
-            <_HeaderPosition val="1"/>
             <Scope val="S"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
-            <_TotalVariabls val="7"/>
-            <_TotalVirtuals val="7"/>
-            <PRM_LEN val="4"/>
             <Event>
               <EventType val="S"/>
-              <PublicObject comp="-1"/>
             </Event>
             <LogicLines>
               <LogicLine>
@@ -224,15 +209,13 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="6" FlowIsn="14" id="6">
-                  <Column val="1"/>
+                  <Column val="1048577"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
-                  <_RecomputeLength val="1"/>
-                  <_RecomputeIndex val="7"/>
-                  <_FormIndex val="8"/>
-                  <_ControlIndex val="8"/>
-                  <_OleSubformIdx val="8"/>
-                  <_TabbingOrderDspIndex val="8"/>
+                  <INT_RCMP_INFO>
+                    <v>3</v>
+                  </INT_RCMP_INFO>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -241,15 +224,13 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="7" FlowIsn="15" id="7">
-                  <Column val="2"/>
+                  <Column val="1048578"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
-                  <_RecomputeLength val="1"/>
-                  <_RecomputeIndex val="6"/>
-                  <_FormIndex val="7"/>
-                  <_ControlIndex val="7"/>
-                  <_OleSubformIdx val="7"/>
-                  <_TabbingOrderDspIndex val="7"/>
+                  <INT_RCMP_INFO>
+                    <v>4</v>
+                  </INT_RCMP_INFO>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -258,15 +239,13 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="8" FlowIsn="16" id="8">
-                  <Column val="3"/>
+                  <Column val="1048579"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
-                  <_RecomputeLength val="1"/>
-                  <_RecomputeIndex val="5"/>
-                  <_FormIndex val="6"/>
-                  <_ControlIndex val="6"/>
-                  <_OleSubformIdx val="6"/>
-                  <_TabbingOrderDspIndex val="6"/>
+                  <INT_RCMP_INFO>
+                    <v>5</v>
+                  </INT_RCMP_INFO>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -275,14 +254,10 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="12" FlowIsn="31" id="12">
-                  <Column val="4"/>
+                  <Column val="1048580"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
-                  <_RecomputeIndex val="5"/>
-                  <_FormIndex val="5"/>
-                  <_ControlIndex val="5"/>
-                  <_OleSubformIdx val="5"/>
-                  <_TabbingOrderDspIndex val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="Y"/>
                   <Condition val="Y"/>
@@ -298,16 +273,17 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
-                  <ASS val="1"/>
-                  <Column val="5"/>
+                  <ASS val="15"/>
+                  <Column val="1048581"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
-                  <_ControlLength val="4"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
+                  <INT_DIT_INFO>
+                    <v>4</v>
+                    <v>6</v>
+                    <v>3</v>
+                    <v>5</v>
+                  </INT_DIT_INFO>
                   <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -317,15 +293,11 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="4" id="2">
-                  <ASS val="2"/>
-                  <Column val="6"/>
+                  <ASS val="16"/>
+                  <Column val="1048582"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
                   <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -335,15 +307,11 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="3" FlowIsn="5" id="3">
-                  <ASS val="3"/>
-                  <Column val="7"/>
+                  <ASS val="17"/>
+                  <Column val="1048583"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
                   <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -356,22 +324,19 @@
           <LogicUnit id="8" propagate="78">
             <Level val="T"/>
             <Type val="P"/>
-            <_DspTemplate val="0"/>
-            <_HeaderPosition val="10"/>
             <Scope val="S"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
             <Event>
               <EventType val="S"/>
-              <PublicObject comp="-1"/>
             </Event>
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="33">
                   <FieldID val="12"/>
-                  <WithValue val="17"/>
+                  <WithValue val="23"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -384,8 +349,6 @@
           <LogicUnit id="4" propagate="78">
             <Level val="H"/>
             <Type val="U"/>
-            <_DspTemplate val="-1"/>
-            <_HeaderPosition val="5"/>
             <Scope val="T"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
@@ -400,7 +363,7 @@
               <LogicLine>
                 <Update FlowIsn="10">
                   <FieldID val="6"/>
-                  <WithValue val="4"/>
+                  <WithValue val="12"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -411,7 +374,7 @@
               <LogicLine>
                 <Update FlowIsn="12">
                   <FieldID val="7"/>
-                  <WithValue val="5"/>
+                  <WithValue val="1048602"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -422,7 +385,7 @@
               <LogicLine>
                 <Update FlowIsn="24">
                   <FieldID val="8"/>
-                  <WithValue val="6"/>
+                  <WithValue val="14"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -433,7 +396,7 @@
               <LogicLine>
                 <Update FlowIsn="32">
                   <FieldID val="12"/>
-                  <WithValue val="16"/>
+                  <WithValue val="22"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -446,7 +409,6 @@
                   <Event>
                     <EventType val="I"/>
                     <InternalEventID val="14"/>
-                    <PublicObject comp="-1"/>
                   </Event>
                   <Wait val="78"/>
                   <Condition val="Y"/>
@@ -459,23 +421,20 @@
           <LogicUnit id="5" propagate="78">
             <Level val="C"/>
             <Type val="V"/>
-            <_DspTemplate val="-1"/>
-            <_HeaderPosition val="5"/>
             <Scope val="T"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
             <Event>
               <EventType val="S"/>
-              <PublicObject comp="-1"/>
             </Event>
             <TXT val="v.PDF File Name"/>
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="10" FlowIsn="9" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="7" FlowIsn="9" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
-                  <Condition Exp="9"/>
+                  <Condition Exp="8"/>
                   <Modifier val="B"/>
                   <Direction val="F"/>
                 </STP>
@@ -485,26 +444,21 @@
           <LogicUnit id="7" propagate="78">
             <Level val="V"/>
             <Type val="C"/>
-            <_DspTemplate val="0"/>
-            <FieldID val="5"/>
-            <_HeaderPosition val="14"/>
+            <FieldID val="1"/>
             <Scope val="S"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
-            <_TotalVariabls val="2"/>
-            <_TotalVirtuals val="2"/>
-            <PRM_LEN val="2"/>
             <Event>
               <EventType val="S"/>
-              <PublicObject comp="-1"/>
             </Event>
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="10" FlowIsn="26" id="10">
-                  <Column val="8"/>
+                  <Column val="1048584"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -514,8 +468,9 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="11" FlowIsn="27" id="11">
-                  <Column val="9"/>
+                  <Column val="1048585"/>
                   <Type val="V"/>
+                  <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -526,10 +481,10 @@
               <LogicLine>
                 <Update FlowIsn="28">
                   <FieldID val="2"/>
-                  <WithValue val="14"/>
+                  <WithValue val="19"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
-                  <Condition Exp="13"/>
+                  <Condition Exp="20"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Update>
@@ -537,7 +492,7 @@
               <LogicLine>
                 <Update FlowIsn="29">
                   <FieldID val="3"/>
-                  <WithValue val="15"/>
+                  <WithValue val="21"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -550,23 +505,20 @@
           <LogicUnit id="12" propagate="78">
             <Level val="C"/>
             <Type val="V"/>
-            <_DspTemplate val="-1"/>
-            <_HeaderPosition val="21"/>
             <Scope val="T"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
             <Event>
               <EventType val="S"/>
-              <PublicObject comp="-1"/>
             </Event>
             <TXT val="v.Copies"/>
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="12" FlowIsn="47" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="24" FlowIsn="47" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
-                  <Condition Exp="11"/>
+                  <Condition Exp="25"/>
                   <Modifier val="B"/>
                   <Direction val="F"/>
                 </STP>
@@ -630,7 +582,7 @@
                 <Height id="24" val="12"/>
                 <Font id="50" val="17"/>
                 <Color id="51" val="5"/>
-                <Visible Exp="7" id="61"/>
+                <Visible Exp="1" id="61"/>
                 <Style id="63" val="7"/>
                 <_VerticalScroll id="73"/>
                 <_Orientation id="143"/>
@@ -645,7 +597,7 @@
                 <Height id="24" val="12"/>
                 <Font id="50" val="17"/>
                 <Color id="51" val="5"/>
-                <Visible Exp="8" id="61"/>
+                <Visible Exp="2" id="61"/>
                 <Style id="63" val="7"/>
                 <_VerticalScroll id="73"/>
                 <_Orientation id="143"/>
@@ -663,7 +615,7 @@
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="v.PDF File Name"/>
                 <Font id="50" val="19"/>
-                <Visible Exp="7" id="61"/>
+                <Visible Exp="1" id="61"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
@@ -680,7 +632,7 @@
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="v.Copies"/>
                 <Font id="50" val="19"/>
-                <Visible Exp="8" id="61"/>
+                <Visible Exp="2" id="61"/>
                 <MultiLineEdit id="71"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
@@ -727,7 +679,6 @@
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="14"/>
-                  <PublicObject comp="-1"/>
                 </RaiseEvent>
                 <TabOrder id="314" val="5"/>
               </PropertyList>
@@ -803,11 +754,14 @@
             <ExpSyntax val="'FALSE'LOG"/>
             <ExpAttribute val="B"/>
           </Expression>
+          <Expression id="1048602">
+            <ExpSyntax val="Translate('%temp%')&amp;Trim({0,2})"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
         <EVNT DESC="OK" FORCE_EXIT="N" id="1">
           <Event>
             <EventType val="N"/>
-            <PublicObject comp="-1"/>
           </Event>
         </EVNT>
       </Task>

@@ -8,5 +8,5 @@
 *.xpaproj
 /developer.ini
 /startdev.bat
-
+/temp/*.pdf
 
