@@ -5,9 +5,12 @@
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="15"/>
-    <LastIsnFolder val="5"/>
+    <LastIsn val="16"/>
+    <LastIsnFolder val="6"/>
     <Folders>
+      <Folder id="22020102">
+        <Name val="YL-Customers"/>
+      </Folder>
       <Folder id="1048581">
         <Name val="YA-Customers"/>
       </Folder>
@@ -29,6 +32,7 @@
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
+      <Program FolderIsn="22020102" id="22020112"/>
       <Program FolderIsn="1048581" id="1048591"/>
       <Program FolderIsn="1" id="2"/>
       <Program FolderIsn="1" id="4"/>
