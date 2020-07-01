@@ -3,8 +3,8 @@
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="8"/>
-    <LastIsnFolder val="1"/>
+    <LastIsn val="9"/>
+    <LastIsnFolder val="2"/>
   </Header>
   <DataRepositoryProperties/>
   <DataSourceRepository>
@@ -709,6 +709,45 @@
               <_Flip id="194"/>
               <_FieldPhysical Name="customername" PIC_U="50" Size="100" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
               <_FieldStyle id="276" val="1"/>
+            </PropertyList>
+          </Column>
+        </Columns>
+        <Indexes/>
+        <ForeignKeys/>
+        <WebS/>
+      </DataObject>
+      <DataObject PhysicalName="MGU_DS" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="3145735" name="MGU_DS">
+        <Encrypt val="N"/>
+        <Cache val="D"/>
+        <IdentifyRowModifications val="U"/>
+        <HasHint val="Y"/>
+        <Cursor val="D"/>
+        <CheckExistence val="D"/>
+        <ObjectType val="T"/>
+        <Position val="D"/>
+        <PositionIndex val="-1"/>
+        <MetaTreeRTIndex val="-1"/>
+        <Columns>
+          <Column id="3145729" name="Column1">
+            <PropertyList model="FIELD">
+              <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
+              <StoredAs id="173" val="4"/>
+              <Size id="174" val="4"/>
+              <Definition id="175" val="2"/>
+              <DbColumnName id="178" val="Column1"/>
+              <_Flip id="194"/>
+              <_FieldPhysical Name="Column1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+            </PropertyList>
+          </Column>
+          <Column id="3145730" name="Column2">
+            <PropertyList model="FIELD">
+              <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="2"/>
+              <StoredAs id="173" val="3"/>
+              <Size id="174" val="20"/>
+              <Definition id="175" val="2"/>
+              <DbColumnName id="178" val="Column2"/>
+              <_Flip id="194"/>
+              <_FieldPhysical Name="Column2" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
             </PropertyList>
           </Column>
         </Columns>
