@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737607" _time="57442" date="01/07/2020" time="15:57:22"/>
+          <LastModified _date="737607" _time="58348" date="01/07/2020" time="16:12:28"/>
         </Header>
         <Resource>
           <Columns/>
@@ -139,11 +139,48 @@
                   <Direction val="C"/>
                 </CallTask>
               </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="5242884">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="5242884" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="5242882"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="5242885">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="6"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="1" _last_test_id="1" id="1">
+          <FormEntry _last_isn="2" _last_test_id="2" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
               <FormName id="311" valUnicode="MenuProgram"/>
@@ -162,9 +199,28 @@
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
+            <Control PDOD="128" _test_id="2" id="5242882">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="104"/>
+                <Y id="22" val="74"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="23"/>
+                <Format id="82" valUnicode="Raise Event"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="5242882"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
         <EVNT DESC="Event1" FORCE_EXIT="N" id="3145729">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="Event2_ns" FORCE_EXIT="N" id="5242882">
           <Event>
             <EventType val="N"/>
           </Event>
