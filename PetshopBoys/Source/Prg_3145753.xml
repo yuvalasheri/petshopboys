@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Customerslist" ISN_2="1" LastIsn="1" id="3145753">
+        <Header Description="Customerslist_MGU" ISN_2="1" LastIsn="1" id="3145753">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737607" _time="53285" date="01/07/2020" time="14:48:05"/>
+          <LastModified _date="737607" _time="57594" date="01/07/2020" time="15:59:54"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -124,6 +124,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -230,11 +231,49 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="3" _last_test_id="3" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Customerslist"/>
+              <FormName id="311" valUnicode="Customerslist_MGU"/>
             </PropertyList>
+            <Control _test_id="1" id="3145729">
+              <PropertyList model="CTRL_GUI0_TABLE">
+                <X id="21" val="10"/>
+                <Y id="22" val="7"/>
+                <Width id="23" val="221"/>
+                <Height id="24" val="87"/>
+                <TitleHeight id="79" val="12"/>
+                <RowHeight id="80" val="13"/>
+                <Elements id="81" val="1"/>
+                <_WindowWidth id="241" val="221"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="3145729" PDOD="128" _test_id="2" id="3145730">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="51"/>
+                <ControlLayer id="25" val="1"/>
+                <Sortable id="134" val="Y"/>
+                <ColumnTitle id="139" valUnicode="Customer ID"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="3145729" PDOD="1" _test_id="3" id="3145731">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT_TBL" id="1">
+                  <Var FieldID="3145729"/>
+                </Model>
+                <Placement bottom="100" id="20" right="100"/>
+                <X id="21" val="14"/>
+                <Y id="22" val="22"/>
+                <Width id="23" val="27"/>
+                <Height id="24" val="10"/>
+                <ControlLayer id="25" val="1"/>
+                <Data FieldID="3145729" id="43"/>
+                <ControlName id="46" val="Customer ID"/>
+                <Style id="63" val="1"/>
+                <TabOrder id="314" val="1"/>
+                <Border id="452"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
