@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="3145757">
+        <Header Description="MenuProgram" ISN_2="1" LastIsn="1" id="3145757">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="737607" _time="57442" date="01/07/2020" time="15:57:22"/>
         </Header>
         <Resource>
           <Columns/>
@@ -36,7 +36,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -110,15 +110,65 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="3145731" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="3145729"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="3145731">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="3145753"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="1" _last_test_id="1" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="MenuProgram"/>
             </PropertyList>
+            <Control PDOD="128" _test_id="1" id="3145729">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="104"/>
+                <Y id="22" val="32"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="23"/>
+                <Format id="82" valUnicode="Raise Event"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="3145729"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
+        <EVNT DESC="Event1" FORCE_EXIT="N" id="3145729">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
       </Task>
     </Programs>
   </ProgramsRepository>
