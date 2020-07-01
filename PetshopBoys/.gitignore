@@ -9,6 +9,7 @@
 /developer.ini
 /startdev.bat
 /temp/*
+/mglock.dat
 
 /*.optback
 /CrossRef.XRF
