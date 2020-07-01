@@ -4,9 +4,12 @@
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="26"/>
-    <LastIsnFolder val="12"/>
+    <LastIsn val="27"/>
+    <LastIsnFolder val="13"/>
     <Folders>
+      <Folder id="11">
+        <Name val="CSC-Customer"/>
+      </Folder>
       <Folder id="3145739">
         <Name val="MG-Customer"/>
       </Folder>
@@ -45,6 +48,7 @@
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
+      <Program FolderIsn="11" id="25"/>
       <Program FolderIsn="3145739" id="3145753"/>
       <Program FolderIsn="10" id="24"/>
       <Program FolderIsn="5242891" id="5242904"/>
