@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="24">
+        <Header Description="CustomerList" ISN_2="1" LastIsn="1" id="24">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="737607" _time="51342" date="01/07/2020" time="14:15:42"/>
         </Header>
         <Resource>
           <Columns/>
@@ -36,7 +36,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -112,11 +112,21 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="2" _last_test_id="2" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="CustomerList"/>
             </PropertyList>
+            <Control _test_id="2" id="2">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Customer List"/>
+                <X id="21" val="183"/>
+                <Y id="22" val="103"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="9"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
