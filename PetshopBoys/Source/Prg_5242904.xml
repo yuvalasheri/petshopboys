@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="5242904">
+        <Header Description="Customers" ISN_2="1" LastIsn="1" id="5242904">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,16 +27,26 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="737607" _time="52572" date="01/07/2020" time="14:36:12"/>
         </Header>
+        <ItemIsn val="2"/>
         <Resource>
+          <DB id="5242881">
+            <DataObject comp="-1" obj="1"/>
+            <Access val="W"/>
+            <Share val="W"/>
+            <Open val="N"/>
+            <Cache val="Y"/>
+            <IdentifyRowModifications val="84"/>
+          </DB>
           <Columns/>
         </Resource>
         <Information>
           <Key>
+            <Column val="1"/>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1" obj="1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -102,21 +112,99 @@
             </Event>
             <LogicLines>
               <LogicLine>
-                <DATAVIEW_SRC FlowIsn="5242881" Type="M">
+                <DATAVIEW_SRC FlowIsn="5242881" IDX="5242881" Type="M">
                   <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="5242881" FlowIsn="5242883" id="5242881">
+                  <Column val="1"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="5242882" FlowIsn="5242884" id="5242882">
+                  <Column val="3"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="4" _last_test_id="4" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="Customers"/>
             </PropertyList>
+            <Control _test_id="2" id="5242882">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Customer ID"/>
+                <X id="21" val="64"/>
+                <Y id="22" val="20"/>
+                <Width id="23" val="50"/>
+                <Height id="24" val="9"/>
+                <Font id="50" val="1"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="1" _test_id="1" id="5242881">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="5242881"/>
+                </Model>
+                <X id="21" val="118"/>
+                <Y id="22" val="20"/>
+                <Width id="23" val="27"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="5242881" id="43"/>
+                <ControlName id="46" val="Customer ID"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="4" id="5242884">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Last Name"/>
+                <X id="21" val="64"/>
+                <Y id="22" val="42"/>
+                <Width id="23" val="42"/>
+                <Height id="24" val="9"/>
+                <Font id="50" val="1"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="3" id="5242883">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="5242882"/>
+                </Model>
+                <X id="21" val="110"/>
+                <Y id="22" val="42"/>
+                <Width id="23" val="99"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="5242882" id="43"/>
+                <ControlName id="46" val="Last Name"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
