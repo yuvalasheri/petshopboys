@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,7 +25,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737607" _time="62481" date="01/07/2020" time="17:21:21"/>
+          <LastModified _date="737608" _time="55780" date="07/02/2020" time="15:29:40"/>
         </Header>
         <Resource>
           <Columns/>
@@ -147,7 +145,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="5242884" propagate="78">
+          <LogicUnit id="5242884" propagate="78" CreatedBy="MergeTool" FullCopy="1">
             <Level val="H"/>
             <Type val="U"/>
             <Scope val="S"/>
@@ -178,7 +176,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="1048580" propagate="78">
+          <LogicUnit id="1048580" propagate="78" CreatedBy="MergeTool" FullCopy="1">
             <Level val="H"/>
             <Type val="U"/>
             <Scope val="S"/>
@@ -278,5 +276,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
