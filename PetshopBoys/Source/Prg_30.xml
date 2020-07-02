@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Customerlist SNP" ISN_2="1" LastIsn="1" id="30">
+        <Header Description="CustomerList_SNP" ISN_2="1" LastIsn="1" id="30">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737608" _time="57840" date="02/07/2020" time="16:04:00"/>
+          <LastModified _date="737608" _time="58674" date="02/07/2020" time="16:17:54"/>
         </Header>
-        <ItemIsn val="18"/>
+        <ItemIsn val="32"/>
         <Resource>
           <DB id="1">
             <DataObject comp="-1" obj="1"/>
@@ -119,7 +119,7 @@
                 </DATAVIEW_SRC>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="10" FlowIsn="1" id="10">
+                <Select FieldID="24" FlowIsn="1" id="24">
                   <Column val="1"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -132,7 +132,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="11" FlowIsn="2" id="11">
+                <Select FieldID="25" FlowIsn="2" id="25">
                   <Column val="3"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -145,7 +145,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="12" FlowIsn="3" id="12">
+                <Select FieldID="26" FlowIsn="3" id="26">
                   <Column val="2"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -158,7 +158,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="13" FlowIsn="4" id="13">
+                <Select FieldID="27" FlowIsn="4" id="27">
                   <Column val="4"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -171,7 +171,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="14" FlowIsn="5" id="14">
+                <Select FieldID="28" FlowIsn="5" id="28">
                   <Column val="5"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -184,7 +184,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="15" FlowIsn="6" id="15">
+                <Select FieldID="29" FlowIsn="6" id="29">
                   <Column val="6"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -197,7 +197,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="16" FlowIsn="7" id="16">
+                <Select FieldID="30" FlowIsn="7" id="30">
                   <Column val="7"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -210,7 +210,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="17" FlowIsn="8" id="17">
+                <Select FieldID="31" FlowIsn="8" id="31">
                   <Column val="8"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -223,7 +223,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="18" FlowIsn="9" id="18">
+                <Select FieldID="32" FlowIsn="9" id="32">
                   <Column val="9"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -239,12 +239,12 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="19" _last_test_id="19" id="2">
+          <FormEntry _last_isn="19" _last_test_id="19" id="3">
             <PropertyList model="FORM_GUI0">
               <Width id="23" val="802"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Customer SNP"/>
+              <FormName id="311" valUnicode="CustomerList_SNP"/>
             </PropertyList>
             <Control _test_id="1" id="1">
               <PropertyList model="CTRL_GUI0_TABLE">
@@ -262,7 +262,7 @@
             <Control ISN_FATHER="1" PDOD="1" _test_id="2" id="2">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="10"/>
+                  <Var FieldID="24"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="12"/>
@@ -270,7 +270,7 @@
                 <Width id="23" val="27"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="1"/>
-                <Data FieldID="10" id="43"/>
+                <Data FieldID="24" id="43"/>
                 <ControlName id="46" val="Customer ID"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
@@ -281,7 +281,7 @@
             <Control ISN_FATHER="1" _test_id="3" id="3">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="11"/>
+                  <Var FieldID="25"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="63"/>
@@ -289,7 +289,7 @@
                 <Width id="23" val="99"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="2"/>
-                <Data FieldID="11" id="43"/>
+                <Data FieldID="25" id="43"/>
                 <ControlName id="46" val="Last Name"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
@@ -300,7 +300,7 @@
             <Control ISN_FATHER="1" _test_id="4" id="4">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="12"/>
+                  <Var FieldID="26"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="169"/>
@@ -308,7 +308,7 @@
                 <Width id="23" val="99"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="3"/>
-                <Data FieldID="12" id="43"/>
+                <Data FieldID="26" id="43"/>
                 <ControlName id="46" val="First Name"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
@@ -319,7 +319,7 @@
             <Control ISN_FATHER="1" PDOD="128" _test_id="5" id="5">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="13"/>
+                  <Var FieldID="27"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="275"/>
@@ -327,7 +327,7 @@
                 <Width id="23" val="53"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="4"/>
-                <Data FieldID="13" id="43"/>
+                <Data FieldID="27" id="43"/>
                 <ControlName id="46" val="Member Since"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
@@ -338,7 +338,7 @@
             <Control ISN_FATHER="1" PDOD="128" _test_id="6" id="6">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="14"/>
+                  <Var FieldID="28"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="335"/>
@@ -346,7 +346,7 @@
                 <Width id="23" val="56"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="5"/>
-                <Data FieldID="14" id="43"/>
+                <Data FieldID="28" id="43"/>
                 <ControlName id="46" val="Phone Number"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
@@ -357,7 +357,7 @@
             <Control ISN_FATHER="1" PDOD="128" _test_id="7" id="7">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="15"/>
+                  <Var FieldID="29"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="398"/>
@@ -365,7 +365,7 @@
                 <Width id="23" val="32"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="6"/>
-                <Data FieldID="15" id="43"/>
+                <Data FieldID="29" id="43"/>
                 <ControlName id="46" val="House Number"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
@@ -376,7 +376,7 @@
             <Control ISN_FATHER="1" _test_id="8" id="8">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="16"/>
+                  <Var FieldID="30"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="457"/>
@@ -384,7 +384,7 @@
                 <Width id="23" val="99"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="7"/>
-                <Data FieldID="16" id="43"/>
+                <Data FieldID="30" id="43"/>
                 <ControlName id="46" val="Street"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
@@ -395,7 +395,7 @@
             <Control ISN_FATHER="1" _test_id="9" id="9">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="17"/>
+                  <Var FieldID="31"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="563"/>
@@ -403,7 +403,7 @@
                 <Width id="23" val="99"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="8"/>
-                <Data FieldID="17" id="43"/>
+                <Data FieldID="31" id="43"/>
                 <ControlName id="46" val="City"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
@@ -414,7 +414,7 @@
             <Control ISN_FATHER="1" _test_id="10" id="10">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
-                  <Var FieldID="18"/>
+                  <Var FieldID="32"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="669"/>
@@ -422,7 +422,7 @@
                 <Width id="23" val="99"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="9"/>
-                <Data FieldID="18" id="43"/>
+                <Data FieldID="32" id="43"/>
                 <ControlName id="46" val="Zip Code"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
