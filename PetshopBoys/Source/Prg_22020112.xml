@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737604" _time="50209" date="28/06/2020" time="13:56:49"/>
+          <LastModified _date="737610" _time="70344" date="04/07/2020" time="19:32:24"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -137,6 +137,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <REAL_VNAME_TXT val="Last Name_30"/>
                   <_DitIndexForToolkit val="12"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -241,7 +242,6 @@
         <TaskForms>
           <FormEntry _last_isn="19" _last_test_id="19" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <Width id="23" val="963"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="CustomersList"/>
@@ -338,6 +338,7 @@
                 <Data FieldID="22020097" id="43"/>
                 <ControlName id="46" val="Customer ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
@@ -356,6 +357,7 @@
                 <Data FieldID="22020098" id="43"/>
                 <ControlName id="46" val="Last Name"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
@@ -374,6 +376,7 @@
                 <Data FieldID="22020099" id="43"/>
                 <ControlName id="46" val="First Name"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
@@ -392,6 +395,7 @@
                 <Data FieldID="22020100" id="43"/>
                 <ControlName id="46" val="Member Since"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
                 <Border id="452"/>
               </PropertyList>
@@ -410,6 +414,7 @@
                 <Data FieldID="22020101" id="43"/>
                 <ControlName id="46" val="Phone Number"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
                 <Border id="452"/>
               </PropertyList>
@@ -428,6 +433,7 @@
                 <Data FieldID="22020102" id="43"/>
                 <ControlName id="46" val="House Number"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="6"/>
                 <Border id="452"/>
               </PropertyList>
@@ -446,6 +452,7 @@
                 <Data FieldID="22020103" id="43"/>
                 <ControlName id="46" val="Street"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="7"/>
                 <Border id="452"/>
               </PropertyList>
@@ -464,6 +471,7 @@
                 <Data FieldID="22020104" id="43"/>
                 <ControlName id="46" val="City"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="8"/>
                 <Border id="452"/>
               </PropertyList>
@@ -482,6 +490,7 @@
                 <Data FieldID="22020105" id="43"/>
                 <ControlName id="46" val="Zip Code"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="9"/>
                 <Border id="452"/>
               </PropertyList>
