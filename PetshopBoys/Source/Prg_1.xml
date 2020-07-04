@@ -28,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737604" _time="49514" date="28/06/2020" time="13:45:14"/>
+          <LastModified _date="737610" _time="67019" date="04/07/2020" time="18:36:59"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -56,9 +56,9 @@
             <Column id="1048579" name="G-Dialog No">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="1"/>
+                <Picture id="157" valUnicode="5"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="1"/>
+                <_Whole id="182" val="5"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
