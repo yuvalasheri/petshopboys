@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737610" _time="59443" date="04/07/2020" time="16:30:43"/>
+          <LastModified _date="737610" _time="60153" date="07/04/2020" time="16:42:33"/>
         </Header>
-        <ItemIsn val="1"/>
+        <ItemIsn val="2"/>
         <Resource>
           <Columns/>
         </Resource>
@@ -206,7 +204,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="4" _last_test_id="4" id="1">
+          <FormEntry _last_isn="3" _last_test_id="3" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
               <FormName id="311" valUnicode="MenuProgram"/>
@@ -256,6 +254,16 @@
             <Control PDOD="128" _test_id="4" id="1048580">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                 <X id="21" val="44"/>
+                <Y id="22" val="169"/>
+                <Width id="23" val="33"/>
+                <Height id="24" val="15"/>
+                <Format id="82" valUnicode="Button4"/>
+                <TabOrder id="314" val="4"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="4" id="1048580">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="44"/>
                 <Y id="22" val="176"/>
                 <Width id="23" val="33"/>
                 <Height id="24" val="15"/>
@@ -283,5 +291,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
