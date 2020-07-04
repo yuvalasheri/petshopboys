@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737610" _time="60632" date="04/07/2020" time="16:50:32"/>
+          <LastModified _date="737610" _time="61229" date="04/07/2020" time="17:00:29"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
@@ -206,9 +206,8 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="6" _last_test_id="6" id="1">
+          <FormEntry _last_isn="7" _last_test_id="7" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="MenuProgram"/>
             </PropertyList>
@@ -230,6 +229,16 @@
                 <Height id="24" val="15"/>
                 <Format id="82" valUnicode="Button2"/>
                 <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="7" id="31457287">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="38"/>
+                <Y id="22" val="125"/>
+                <Width id="23" val="46"/>
+                <Height id="24" val="15"/>
+                <Format id="82" valUnicode="ButtonPet"/>
+                <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
           </FormEntry>
