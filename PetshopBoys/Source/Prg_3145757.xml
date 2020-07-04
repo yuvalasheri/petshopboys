@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737610" _time="56952" date="04/07/2020" time="15:49:12"/>
+          <LastModified _date="737610" _time="58358" date="04/07/2020" time="16:12:38"/>
         </Header>
         <Resource>
           <Columns/>
@@ -211,72 +211,12 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="6" _last_test_id="6" id="1">
+          <FormEntry _last_isn="9" _last_test_id="9" id="1">
             <PropertyList model="FORM_GUI0">
+              <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="MenuProgram"/>
             </PropertyList>
-            <Control PDOD="128" _test_id="4" id="1048580">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="46"/>
-                <Y id="22" val="18"/>
-                <Width id="23" val="33"/>
-                <Height id="24" val="15"/>
-                <Format id="82" valUnicode="Button1"/>
-                <RaiseEvent id="234">
-                  <EventType val="U"/>
-                  <PublicObject comp="-1" obj="3145729"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="1"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="5" id="1048581">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="46"/>
-                <Y id="22" val="70"/>
-                <Width id="23" val="33"/>
-                <Height id="24" val="15"/>
-                <Format id="82" valUnicode="Button2"/>
-                <RaiseEvent id="234">
-                  <EventType val="U"/>
-                  <PublicObject comp="-1" obj="5242882"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="2"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="6" id="1048582">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="46"/>
-                <Y id="22" val="132"/>
-                <Width id="23" val="33"/>
-                <Height id="24" val="15"/>
-                <Format id="82" valUnicode="Button3"/>
-                <RaiseEvent id="234">
-                  <EventType val="U"/>
-                  <PublicObject comp="-1" obj="1048578"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="3"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="7" id="1048583">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="46"/>
-                <Y id="22" val="170"/>
-                <Width id="23" val="33"/>
-                <Height id="24" val="15"/>
-                <Format id="82" valUnicode="Button4"/>
-                <TabOrder id="314" val="5"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="7" id="1048583">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="54"/>
-                <Y id="22" val="177"/>
-                <Width id="23" val="33"/>
-                <Height id="24" val="15"/>
-                <Format id="82" valUnicode="Button5"/>
-              </PropertyList>
-            </Control>
           </FormEntry>
         </TaskForms>
         <EVNT DESC="Event1" FORCE_EXIT="N" id="3145729">
