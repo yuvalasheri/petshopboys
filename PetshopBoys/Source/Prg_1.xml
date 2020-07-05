@@ -28,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737611" _time="53570" date="05/07/2020" time="14:52:50"/>
+          <LastModified _date="737611" _time="53750" date="05/07/2020" time="14:55:50"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -38,6 +38,7 @@
             <Share val="W"/>
             <Open val="N"/>
             <Cache val="N"/>
+            <IdentifyRowModifications val="84"/>
           </DB>
           <Columns>
             <Column id="1048577" name="G-Dialog Return Value">
@@ -53,9 +54,9 @@
             <Column id="1048578" name="G-Dialog Yes">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="10"/>
+                <Picture id="157" valUnicode="11"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="10"/>
+                <_Whole id="182" val="11"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
