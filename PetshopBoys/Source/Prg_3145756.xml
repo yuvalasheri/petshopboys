@@ -204,7 +204,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="6" _last_test_id="6" id="1">
+          <FormEntry _last_isn="6" _last_test_id="7" id="1">
             <PropertyList model="FORM_GUI0">
               <Model id="1"/>
               <_Comment id="218"/>
