@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -9,11 +8,10 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Customers list" ISN_2="1" LastIsn="2" id="1048591">
+        <Header Description="Customers list" ISN_2="1" LastIsn="3" id="1048591">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737611" _time="68882" date="05/07/2020" time="19:08:02"/>
+          <LastModified _date="737611" _time="70191" date="07/05/2020" time="19:29:51"/>
         </Header>
-        <ItemIsn val="11"/>
+        <ItemIsn val="12"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -538,14 +536,8 @@
             </Control>
           </FormEntry>
         </TaskForms>
-        <Expressions>
-          <Expression id="1048577">
-            <ExpSyntax val="'a'"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-        </Expressions>
         <Task MainProgram="N">
-          <Header Description="animals" ISN_2="1048578" LastIsn="2" id="1048591">
+          <Header Description="animals" ISN_2="1048578" LastIsn="3" id="1048591">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -558,9 +550,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737604" _time="51600" date="28/06/2020" time="14:20:00"/>
+            <LastModified _date="737611" _time="70191" date="07/05/2020" time="19:29:51"/>
           </Header>
-          <ItemIsn val="11"/>
+          <ItemIsn val="12"/>
           <Resource>
             <DB id="1048577">
               <DataObject comp="-1" obj="2"/>
@@ -721,8 +713,17 @@
             </FormEntry>
           </TaskForms>
         </Task>
+        <Expressions>
+          <Expression id="31457281">
+            <ExpSyntax val="'b'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="1048577">
+            <ExpSyntax val="'a'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
