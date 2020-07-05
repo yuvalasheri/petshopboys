@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="Y">
@@ -26,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737610" _time="69236" date="07/04/2020" time="19:13:56"/>
+          <LastModified _date="737611" _time="52221" date="05/07/2020" time="14:30:21"/>
         </Header>
         <ItemIsn val="8"/>
         <Resource>
@@ -44,9 +46,9 @@
             <Column id="1048578" name="G-Dialog Yes">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="1"/>
+                <Picture id="157" valUnicode="10"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="1"/>
+                <_Whole id="182" val="10"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -277,7 +279,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737610" _time="69236" date="07/04/2020" time="19:13:56"/>
+            <LastModified _date="737610" _time="69236" date="04/07/2020" time="19:13:56"/>
           </Header>
           <Resource>
             <Columns/>
@@ -456,4 +458,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
