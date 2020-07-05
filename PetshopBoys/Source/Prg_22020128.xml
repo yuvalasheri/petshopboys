@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737611" _time="77063" date="05/07/2020" time="21:24:23"/>
+          <LastModified _date="737611" _time="77146" date="05/07/2020" time="21:25:46"/>
         </Header>
-        <ItemIsn val="4"/>
+        <ItemIsn val="5"/>
         <Resource>
           <DB id="22020097">
             <DataObject comp="-1" obj="3"/>
@@ -39,7 +39,17 @@
             <Cache val="Y"/>
             <IdentifyRowModifications val="84"/>
           </DB>
-          <Columns/>
+          <Columns>
+            <Column id="22020097" name="zz">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="1"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="1"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+          </Columns>
         </Resource>
         <Information>
           <Key>
@@ -170,13 +180,24 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="22020101" FlowIsn="22020107" id="22020101">
+                  <Column val="22020097"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="8" _last_test_id="8" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <Width id="23" val="190"/>
               <Height id="24" val="88"/>
               <_Comment id="218"/>
@@ -191,6 +212,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="1" _test_id="1" id="22020097">
@@ -204,6 +226,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="22020097" id="43"/>
                 <ControlName id="46" val="Product ID"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -216,6 +239,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="2" id="22020098">
@@ -229,6 +253,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="22020098" id="43"/>
                 <ControlName id="46" val="Description"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
@@ -241,6 +266,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="23" _test_id="3" id="22020099">
@@ -254,6 +280,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="22020099" id="43"/>
                 <ControlName id="46" val="Price $"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
@@ -266,6 +293,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="1" _test_id="4" id="22020100">
@@ -279,6 +307,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="22020100" id="43"/>
                 <ControlName id="46" val="Stock Quantity"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
