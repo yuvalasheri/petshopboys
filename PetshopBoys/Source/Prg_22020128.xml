@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -20,12 +22,12 @@
             <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
-          <TaskType val="O"/>
+          <TaskType val="B"/>
           <External val="N"/>
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737611" _time="77497" date="05/07/2020" time="21:31:37"/>
+          <LastModified _date="737611" _time="77807" date="05/07/2020" time="21:36:47"/>
         </Header>
         <ItemIsn val="13"/>
         <Resource>
@@ -69,18 +71,18 @@
             <SelectionTable val="N"/>
             <ConfirmUpdate CNFU="N"/>
             <ConfirmCancel val="N"/>
-            <ErrorStrategy val="R"/>
-            <LockingStrategy val="M"/>
-            <CacheStrategy val="D"/>
+            <ErrorStrategy val="A"/>
+            <LockingStrategy val="I"/>
+            <CacheStrategy val="T"/>
             <ForceRecordSuffix val="N"/>
-            <TransactionMode val="D"/>
-            <TransactionBegin val="P"/>
+            <TransactionMode val="P"/>
+            <TransactionBegin val="T"/>
             <PreloadView val="N"/>
-            <AllowEmptyDataview val="Y"/>
+            <AllowEmptyDataview val="N"/>
             <KeepCreatedContext val="N"/>
           </TaskProperties>
           <SIDE_WIN>
-            <AllowOptions val="Y"/>
+            <AllowOptions val="N"/>
             <AllowQuery val="Y"/>
             <AllowModify val="Y"/>
             <AllowCreate val="Y"/>
@@ -97,7 +99,7 @@
             <AllowPrintingData val="N"/>
           </SIDE_WIN>
           <WIN>
-            <OpenTaskWindow val="Y"/>
+            <OpenTaskWindow val="N"/>
             <CloseTaskWindow val="Y"/>
             <ForegroundWindow val="Y"/>
             <FlipFld val="N"/>
@@ -235,7 +237,6 @@
         <TaskForms>
           <FormEntry _last_isn="15" _last_test_id="15" id="22020098">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <Width id="23" val="493"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
@@ -251,6 +252,7 @@
                 <TitleHeight id="79" val="11"/>
                 <RowHeight id="80" val="12"/>
                 <Elements id="81" val="7"/>
+                <MultiMarking id="196"/>
                 <_WindowWidth id="241" val="471"/>
               </PropertyList>
             </Control>
@@ -268,6 +270,7 @@
                 <Data FieldID="22020102" id="43"/>
                 <ControlName id="46" val="Order ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
@@ -286,6 +289,7 @@
                 <Data FieldID="22020103" id="43"/>
                 <ControlName id="46" val="Date"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
@@ -304,6 +308,7 @@
                 <Data FieldID="22020104" id="43"/>
                 <ControlName id="46" val="Customer ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
@@ -322,6 +327,7 @@
                 <Data FieldID="22020105" id="43"/>
                 <ControlName id="46" val="Total Price Before Discount"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
                 <Border id="452"/>
               </PropertyList>
@@ -340,6 +346,7 @@
                 <Data FieldID="22020106" id="43"/>
                 <ControlName id="46" val="Discount %"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
                 <Border id="452"/>
               </PropertyList>
@@ -358,6 +365,7 @@
                 <Data FieldID="22020107" id="43"/>
                 <ControlName id="46" val="Total Price After Discount"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="6"/>
                 <Border id="452"/>
               </PropertyList>
@@ -376,6 +384,7 @@
                 <Data FieldID="22020108" id="43"/>
                 <ControlName id="46" val="Order Approved"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="7"/>
                 <Border id="452"/>
               </PropertyList>
@@ -385,6 +394,7 @@
                 <Width id="23" val="35"/>
                 <ControlLayer id="25" val="1"/>
                 <Sortable id="134" val="Y"/>
+                <MarkingColumn id="137"/>
                 <ColumnTitle id="139" valUnicode="Order ID"/>
               </PropertyList>
             </Control>
@@ -393,6 +403,7 @@
                 <Width id="23" val="57"/>
                 <ControlLayer id="25" val="2"/>
                 <Sortable id="134" val="Y"/>
+                <MarkingColumn id="137"/>
                 <ColumnTitle id="139" valUnicode="Date"/>
               </PropertyList>
             </Control>
@@ -401,6 +412,7 @@
                 <Width id="23" val="50"/>
                 <ControlLayer id="25" val="3"/>
                 <Sortable id="134" val="Y"/>
+                <MarkingColumn id="137"/>
                 <ColumnTitle id="139" valUnicode="Customer ID"/>
               </PropertyList>
             </Control>
@@ -408,6 +420,7 @@
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="105"/>
                 <ControlLayer id="25" val="4"/>
+                <MarkingColumn id="137"/>
                 <ColumnTitle id="139" valUnicode="Total Price Before Discount"/>
               </PropertyList>
             </Control>
@@ -415,6 +428,7 @@
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="45"/>
                 <ControlLayer id="25" val="5"/>
+                <MarkingColumn id="137"/>
                 <ColumnTitle id="139" valUnicode="Discount %"/>
               </PropertyList>
             </Control>
@@ -422,6 +436,7 @@
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="99"/>
                 <ControlLayer id="25" val="6"/>
+                <MarkingColumn id="137"/>
                 <ColumnTitle id="139" valUnicode="Total Price After Discount"/>
               </PropertyList>
             </Control>
@@ -429,6 +444,7 @@
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="63"/>
                 <ControlLayer id="25" val="7"/>
+                <MarkingColumn id="137"/>
                 <ColumnTitle id="139" valUnicode="Order Approved"/>
               </PropertyList>
             </Control>
@@ -437,4 +453,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
