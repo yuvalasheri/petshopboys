@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737611" _time="77497" date="05/07/2020" time="21:31:37"/>
+          <LastModified _date="737611" _time="77808" date="05/07/2020" time="21:36:48"/>
         </Header>
-        <ItemIsn val="13"/>
+        <ItemIsn val="14"/>
         <Resource>
           <DB id="22020097">
             <DataObject comp="-1" obj="4"/>
@@ -44,6 +46,15 @@
                 <Picture id="157" valUnicode="5"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="5"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="22020099" name="YuvalLavi">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="1"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="1"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -229,13 +240,24 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="22020110" FlowIsn="22020113" id="22020110">
+                  <Column val="22020099"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="15" _last_test_id="15" id="22020098">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <Width id="23" val="493"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
@@ -268,6 +290,7 @@
                 <Data FieldID="22020102" id="43"/>
                 <ControlName id="46" val="Order ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
@@ -286,6 +309,7 @@
                 <Data FieldID="22020103" id="43"/>
                 <ControlName id="46" val="Date"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
@@ -304,6 +328,7 @@
                 <Data FieldID="22020104" id="43"/>
                 <ControlName id="46" val="Customer ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
@@ -322,6 +347,7 @@
                 <Data FieldID="22020105" id="43"/>
                 <ControlName id="46" val="Total Price Before Discount"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
                 <Border id="452"/>
               </PropertyList>
@@ -340,6 +366,7 @@
                 <Data FieldID="22020106" id="43"/>
                 <ControlName id="46" val="Discount %"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
                 <Border id="452"/>
               </PropertyList>
@@ -358,6 +385,7 @@
                 <Data FieldID="22020107" id="43"/>
                 <ControlName id="46" val="Total Price After Discount"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="6"/>
                 <Border id="452"/>
               </PropertyList>
@@ -376,6 +404,7 @@
                 <Data FieldID="22020108" id="43"/>
                 <ControlName id="46" val="Order Approved"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="7"/>
                 <Border id="452"/>
               </PropertyList>
@@ -437,4 +466,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
