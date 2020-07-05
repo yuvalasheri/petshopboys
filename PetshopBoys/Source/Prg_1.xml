@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="Y">
@@ -28,18 +26,10 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737611" _time="53810" date="05/07/2020" time="14:56:50"/>
+          <LastModified _date="737611" _time="54534" date="07/05/2020" time="15:08:54"/>
         </Header>
-        <ItemIsn val="10"/>
+        <ItemIsn val="11"/>
         <Resource>
-          <DB id="1048577">
-            <DataObject comp="-1" obj="1"/>
-            <Access val="R"/>
-            <Share val="W"/>
-            <Open val="N"/>
-            <Cache val="N"/>
-            <IdentifyRowModifications val="84"/>
-          </DB>
           <Columns>
             <Column id="1048577" name="G-Dialog Return Value">
               <PropertyList model="FIELD">
@@ -72,6 +62,14 @@
               </PropertyList>
             </Column>
           </Columns>
+          <DB id="1048577">
+            <DataObject comp="-1" obj="1"/>
+            <Access val="R"/>
+            <Share val="W"/>
+            <Open val="N"/>
+            <Cache val="N"/>
+            <IdentifyRowModifications val="84"/>
+          </DB>
         </Resource>
         <Information>
           <Key>
@@ -309,7 +307,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737611" _time="52799" date="05/07/2020" time="14:39:59"/>
+            <LastModified _date="737611" _time="54534" date="07/05/2020" time="15:08:54"/>
           </Header>
           <Resource>
             <Columns/>
@@ -488,5 +486,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
