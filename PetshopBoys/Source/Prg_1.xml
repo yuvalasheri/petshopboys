@@ -26,9 +26,9 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737610" _time="69236" date="07/04/2020" time="19:13:56"/>
+          <LastModified _date="737611" _time="54534" date="07/05/2020" time="15:08:54"/>
         </Header>
-        <ItemIsn val="8"/>
+        <ItemIsn val="11"/>
         <Resource>
           <Columns>
             <Column id="1048577" name="G-Dialog Return Value">
@@ -44,9 +44,9 @@
             <Column id="1048578" name="G-Dialog Yes">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="1"/>
+                <Picture id="157" valUnicode="20"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="1"/>
+                <_Whole id="182" val="20"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -62,6 +62,14 @@
               </PropertyList>
             </Column>
           </Columns>
+          <DB id="1048577">
+            <DataObject comp="-1" obj="1"/>
+            <Access val="R"/>
+            <Share val="W"/>
+            <Open val="N"/>
+            <Cache val="N"/>
+            <IdentifyRowModifications val="84"/>
+          </DB>
         </Resource>
         <Information>
           <Key>
@@ -170,6 +178,28 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="4" VIEWS="1">
+                  <DB comp="-1" obj="1"/>
+                  <Expanded val="1"/>
+                  <Condition val="Y"/>
+                </LNK>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="1048586" FlowIsn="1048583" id="1048586">
+                  <Column val="1"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <END_LINK FlowIsn="1048582"/>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="2" propagate="78">
@@ -277,7 +307,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737610" _time="69236" date="07/04/2020" time="19:13:56"/>
+            <LastModified _date="737611" _time="54534" date="07/05/2020" time="15:08:54"/>
           </Header>
           <Resource>
             <Columns/>

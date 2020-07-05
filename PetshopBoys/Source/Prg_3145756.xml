@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737610" _time="61303" date="07/04/2020" time="17:01:43"/>
+          <LastModified _date="737611" _time="59116" date="05/07/2020" time="16:25:16"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -204,9 +206,8 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="6" _last_test_id="6" id="1">
+          <FormEntry _last_isn="7" _last_test_id="7" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="MenuProgram"/>
             </PropertyList>
@@ -247,7 +248,7 @@
                 <Width id="23" val="33"/>
                 <Height id="24" val="15"/>
                 <Format id="82" valUnicode="Button3"/>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
           </FormEntry>
@@ -270,4 +271,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
