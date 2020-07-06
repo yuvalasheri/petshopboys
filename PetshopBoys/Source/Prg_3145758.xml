@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="38276" date="06/07/2020" time="10:37:56"/>
+          <LastModified _date="737612" _time="38376" date="06/07/2020" time="10:39:36"/>
         </Header>
         <Resource>
           <Columns/>
@@ -120,7 +120,7 @@
           </FormEntry>
         </TaskForms>
         <Task MainProgram="N">
-          <Header ISEMPTY_TSK="1" ISN_2="3145730" id="3145758">
+          <Header Description="Online Program" ISN_2="3145730" id="3145758">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -133,7 +133,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified date="00/00/0000" time="00:00:00"/>
+            <LastModified _date="737612" _time="38376" date="06/07/2020" time="10:39:36"/>
           </Header>
           <Resource>
             <Columns/>
@@ -142,7 +142,7 @@
             <Key>
               <Mode val="N"/>
             </Key>
-            <DB/>
+            <DB comp="-1"/>
             <Sort>
               <CLS val="A"/>
             </Sort>
@@ -161,8 +161,8 @@
               <LockingStrategy val="M"/>
               <CacheStrategy val="N"/>
               <ForceRecordSuffix val="N"/>
-              <TransactionMode val="W"/>
-              <TransactionBegin val="P"/>
+              <TransactionMode val="P"/>
+              <TransactionBegin val="N"/>
               <PreloadView val="N"/>
               <AllowEmptyDataview val="Y"/>
               <KeepCreatedContext val="N"/>
@@ -221,7 +221,7 @@
             <FormEntry id="1">
               <PropertyList model="FORM_GUI0">
                 <_Comment id="218"/>
-                <FormName id="311"/>
+                <FormName id="311" valUnicode="Online Program"/>
               </PropertyList>
             </FormEntry>
           </TaskForms>
