@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="44909" date="06/Jul/20" time="12:28:29"/>
+          <LastModified _date="737612" _time="45167" date="06/07/2020" time="12:32:47"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -241,7 +243,8 @@
               <TagsTable id="7">
                 <MERGE_PARM FieldID="3145729" PIC_U="40" TXT_U="String1" id="1"/>
                 <MERGE_PARM FieldID="3145730" PIC_U="40" TXT_U="String2" id="2"/>
-                <MERGE_PARM Exp="1048577" PIC_U="30" TXT_U="String3" id="3"/>
+                <MERGE_PARM Exp="3145729" PIC_U="30" TXT_U="String3" id="3"/>
+                <MERGE_PARM Exp="3145730" PIC_U="30" TXT_U="String4" id="4"/>
               </TagsTable>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="XML"/>
@@ -250,6 +253,10 @@
         </TaskForms>
         <Expressions>
           <Expression id="3145729">
+            <ExpSyntax val="'Always String3'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="3145730">
             <ExpSyntax val="'Always String4'"/>
             <ExpAttribute val="A"/>
           </Expression>
@@ -268,7 +275,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737612" _time="44909" date="06/Jul/20" time="12:28:29"/>
+            <LastModified _date="737612" _time="45167" date="06/07/2020" time="12:32:47"/>
           </Header>
           <ItemIsn val="5"/>
           <Resource>
@@ -588,14 +595,6 @@
               <ExpSyntax val="{0,3145730}"/>
               <ExpAttribute val="U"/>
             </Expression>
-            <Expression id="3145729">
-              <ExpSyntax val="'Always String4'"/>
-              <ExpAttribute val="A"/>
-            </Expression>
-            <Expression id="1048577">
-              <ExpSyntax val="'always string 3'"/>
-              <ExpAttribute val="A"/>
-            </Expression>
           </Expressions>
           <EVNT DESC="Concat" FORCE_EXIT="E" id="3145729">
             <Event>
@@ -606,4 +605,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
