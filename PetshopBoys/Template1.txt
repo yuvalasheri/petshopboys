@@ -1,2 +1,3 @@
 <!$MG_String1>
 <!$MG_String2>
+<!$MG_String3>
