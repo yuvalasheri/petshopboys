@@ -25,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="44539" date="06/Jul/20" time="12:22:19"/>
+          <LastModified _date="737612" _time="44909" date="06/Jul/20" time="12:28:29"/>
         </Header>
-        <ItemIsn val="4"/>
+        <ItemIsn val="5"/>
         <Resource>
           <IO FieldID="3145731" id="3145729">
             <Description val="BlobXML"/>
@@ -239,14 +239,21 @@
             <PropertyList model="FORM_MERGE">
               <FileName id="4" val="%Applic_Root_Folder%Template1.txt"/>
               <TagsTable id="7">
-                <MERGE_PARM TXT_U="String1" id="1"/>
-                <MERGE_PARM TXT_U="String2" id="2"/>
+                <MERGE_PARM FieldID="3145729" PIC_U="40" TXT_U="String1" id="1"/>
+                <MERGE_PARM FieldID="3145730" PIC_U="40" TXT_U="String2" id="2"/>
+                <MERGE_PARM Exp="1048577" PIC_U="30" TXT_U="String3" id="3"/>
               </TagsTable>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="XML"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="3145729">
+            <ExpSyntax val="'Always String4'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
         <Task MainProgram="N">
           <Header Description="Online Program" ISN_2="3145730" LastIsn="2" id="3145758">
             <ExecutionRight comp="-1"/>
@@ -261,9 +268,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737612" _time="44539" date="06/Jul/20" time="12:22:19"/>
+            <LastModified _date="737612" _time="44909" date="06/Jul/20" time="12:28:29"/>
           </Header>
-          <ItemIsn val="4"/>
+          <ItemIsn val="5"/>
           <Resource>
             <Columns>
               <Column id="3145729" name="virtual1">
@@ -550,12 +557,11 @@
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="96"/>
                   <Y id="22" val="82"/>
-                  <Width id="23" val="111"/>
+                  <Width id="23" val="195"/>
                   <Height id="24" val="18"/>
                   <Data FieldID="3145731" id="43"/>
                   <ControlName id="46" val="pb.Concat"/>
                   <Font id="50" val="1"/>
-                  <HorizontalAlignment id="65" val="3"/>
                   <RaiseEvent id="234">
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="3145729"/>
@@ -582,6 +588,14 @@
               <ExpSyntax val="{0,3145730}"/>
               <ExpAttribute val="U"/>
             </Expression>
+            <Expression id="3145729">
+              <ExpSyntax val="'Always String4'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="1048577">
+              <ExpSyntax val="'always string 3'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
           </Expressions>
           <EVNT DESC="Concat" FORCE_EXIT="E" id="3145729">
             <Event>
@@ -589,16 +603,6 @@
             </Event>
           </EVNT>
         </Task>
-        <Expressions>
-          <Expression id="3145729">
-            <ExpSyntax val="'Always String4'"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="1048577">
-            <ExpSyntax val="'always string 3'"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
