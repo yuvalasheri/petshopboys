@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="47155" date="06/07/2020" time="13:05:55"/>
+          <LastModified _date="737612" _time="47771" date="06/07/2020" time="13:16:11"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -270,7 +270,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737612" _time="42589" date="06/07/2020" time="11:49:49"/>
+            <LastModified _date="737612" _time="47771" date="06/07/2020" time="13:16:11"/>
           </Header>
           <ItemIsn val="3"/>
           <Resource>
@@ -564,6 +564,7 @@
                   <Data FieldID="3145731" id="43"/>
                   <ControlName id="46" val="pb.Concat"/>
                   <Font id="50" val="1"/>
+                  <HorizontalAlignment id="65" val="3"/>
                   <RaiseEvent id="234">
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="3145729"/>
@@ -579,7 +580,7 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="3145730">
-              <ExpSyntax val="{0,3145729}&amp;' '&amp;{0,3145730}"/>
+              <ExpSyntax val="{0,3145729}&amp;' '&amp;Trim({0,3145730})"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="3145731">
