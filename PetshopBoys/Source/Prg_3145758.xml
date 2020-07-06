@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="46804" date="06/07/2020" time="13:00:04"/>
+          <LastModified _date="737612" _time="47155" date="06/07/2020" time="13:05:55"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -241,8 +241,8 @@
             <PropertyList model="FORM_MERGE">
               <FileName id="4" val="%Applic_Root_Folder%Template1.txt"/>
               <TagsTable id="7">
-                <MERGE_PARM TXT_U="String1" id="1"/>
-                <MERGE_PARM TXT_U="String2" id="2"/>
+                <MERGE_PARM FieldID="3145729" PIC_U="40" TXT_U="String1" id="1"/>
+                <MERGE_PARM FieldID="3145730" PIC_U="40" TXT_U="String2" id="2"/>
                 <MERGE_PARM Exp="1048577" PIC_U="30" TXT_U="String3" id="3"/>
               </TagsTable>
               <_Comment id="218"/>
