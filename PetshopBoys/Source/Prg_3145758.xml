@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="42783" date="06/07/2020" time="11:53:03"/>
+          <LastModified _date="737612" _time="43143" date="06/07/2020" time="11:59:03"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -241,14 +241,21 @@
             <PropertyList model="FORM_MERGE">
               <FileName id="4" val="%Applic_Root_Folder%Template1.txt"/>
               <TagsTable id="7">
-                <MERGE_PARM TXT_U="String1" id="1"/>
-                <MERGE_PARM TXT_U="String2" id="2"/>
+                <MERGE_PARM FieldID="3145729" PIC_U="40" TXT_U="String1" id="1"/>
+                <MERGE_PARM FieldID="3145730" PIC_U="40" TXT_U="String2" id="2"/>
+                <MERGE_PARM Exp="3145729" PIC_U="30" TXT_U="String4" id="4"/>
               </TagsTable>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="XML"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="3145729">
+            <ExpSyntax val="'Always String4'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
         <Task MainProgram="N">
           <Header Description="Online Program" ISN_2="3145730" LastIsn="2" id="3145758">
             <ExecutionRight comp="-1"/>
