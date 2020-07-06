@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="43683" date="06/Jul/20" time="12:08:03"/>
+          <LastModified _date="737612" _time="44173" date="06/07/2020" time="12:16:13"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -247,6 +249,16 @@
             </PropertyList>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="3145729">
+            <ExpSyntax val="'Always String4'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="1048577">
+            <ExpSyntax val="'always string 3'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
         <Task MainProgram="N">
           <Header Description="Online Program" ISN_2="3145730" LastIsn="2" id="3145758">
             <ExecutionRight comp="-1"/>
@@ -261,7 +273,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737612" _time="43683" date="06/Jul/20" time="12:08:03"/>
+            <LastModified _date="737612" _time="44173" date="06/07/2020" time="12:16:13"/>
           </Header>
           <ItemIsn val="4"/>
           <Resource>
@@ -550,7 +562,7 @@
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="96"/>
                   <Y id="22" val="82"/>
-                  <Width id="23" val="111"/>
+                  <Width id="23" val="195"/>
                   <Height id="24" val="18"/>
                   <Data FieldID="3145731" id="43"/>
                   <ControlName id="46" val="pb.Concat"/>
@@ -570,7 +582,7 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="3145730">
-              <ExpSyntax val="{0,3145729}&amp;' '&amp;{0,3145730}"/>
+              <ExpSyntax val="Trim({0,3145729})&amp;' '&amp;{0,3145730}"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="3145731">
@@ -588,17 +600,8 @@
             </Event>
           </EVNT>
         </Task>
-        <Expressions>
-          <Expression id="3145729">
-            <ExpSyntax val="'Always String4'"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="1048577">
-            <ExpSyntax val="'always string 3'"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
