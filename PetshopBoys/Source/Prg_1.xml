@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="Y">
@@ -28,9 +26,9 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="37359" date="06/07/2020" time="10:22:39"/>
+          <LastModified _date="737612" _time="38370" date="07/06/2020" time="10:39:30"/>
         </Header>
-        <ItemIsn val="12"/>
+        <ItemIsn val="13"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -44,9 +42,9 @@
             <Column id="1048577" name="G-Dialog Return Value">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="5"/>
+                <Picture id="157" valUnicode="10"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="5"/>
+                <_Whole id="182" val="10"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -280,6 +278,10 @@
             <ExpSyntax val="'b'"/>
             <ExpAttribute val="A"/>
           </Expression>
+          <Expression id="31457285">
+            <ExpSyntax val="'new2'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
           <Expression id="1048581">
             <ExpSyntax val="'new1'"/>
             <ExpAttribute val="A"/>
@@ -325,7 +327,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737612" _time="32939" date="06/07/2020" time="09:08:59"/>
+            <LastModified _date="737612" _time="38370" date="07/06/2020" time="10:39:30"/>
           </Header>
           <Resource>
             <Columns/>
@@ -504,5 +506,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
