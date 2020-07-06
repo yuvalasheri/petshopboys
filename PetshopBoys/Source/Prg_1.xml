@@ -28,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737612" _time="32114" date="06/07/2020" time="08:55:14"/>
+          <LastModified _date="737612" _time="32554" date="06/07/2020" time="09:02:34"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -270,6 +270,10 @@
           </Expression>
           <Expression id="1048579">
             <ExpSyntax val="'a'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="1048580">
+            <ExpSyntax val="'b'"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
