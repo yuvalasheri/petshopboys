@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737614" _time="32466" date="08/07/2020" time="09:01:06"/>
+          <LastModified _date="737614" _time="32644" date="08/07/2020" time="09:04:04"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -548,11 +548,11 @@
               <ParametersAttributes/>
             </ReturnValue>
             <SqlWhereExist val="N"/>
-            <TaskType val="B"/>
+            <TaskType val="O"/>
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737614" _time="32466" date="08/07/2020" time="09:01:06"/>
+            <LastModified _date="737614" _time="32644" date="08/07/2020" time="09:04:04"/>
           </Header>
           <ItemIsn val="11"/>
           <Resource>
@@ -586,18 +586,18 @@
               <SelectionTable val="N"/>
               <ConfirmUpdate CNFU="N"/>
               <ConfirmCancel val="N"/>
-              <ErrorStrategy val="A"/>
-              <LockingStrategy val="I"/>
+              <ErrorStrategy val="R"/>
+              <LockingStrategy val="O"/>
               <CacheStrategy val="T"/>
               <ForceRecordSuffix val="N"/>
               <TransactionMode val="W"/>
-              <TransactionBegin val="T"/>
+              <TransactionBegin val="P"/>
               <PreloadView val="N"/>
               <AllowEmptyDataview val="N"/>
               <KeepCreatedContext val="N"/>
             </TaskProperties>
             <SIDE_WIN>
-              <AllowOptions val="N"/>
+              <AllowOptions val="Y"/>
               <AllowQuery val="Y"/>
               <AllowModify val="Y"/>
               <AllowCreate val="Y"/>
@@ -614,7 +614,7 @@
               <AllowPrintingData val="N"/>
             </SIDE_WIN>
             <WIN>
-              <OpenTaskWindow val="N"/>
+              <OpenTaskWindow val="Y"/>
               <CloseTaskWindow val="Y"/>
               <ForegroundWindow val="Y"/>
               <FlipFld val="N"/>
