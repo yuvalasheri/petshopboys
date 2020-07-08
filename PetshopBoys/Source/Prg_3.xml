@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -8,10 +9,11 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Products List" ISN_2="1" LastIsn="3" id="3">
+        <Header Description="Products List" ISN_2="1" LastIsn="5" id="3">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737614" _time="46067" date="08/Jul/20" time="12:47:47"/>
+          <LastModified _date="737614" _time="46324" date="08/07/2020" time="12:52:04"/>
         </Header>
         <ItemIsn val="16"/>
         <Resource>
@@ -868,7 +870,7 @@
           </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="Properties Form" ISN_2="2" LastIsn="2" id="3">
+          <Header Description="Properties Form" ISN_2="2" LastIsn="5" id="3">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -885,7 +887,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737614" _time="46067" date="08/Jul/20" time="12:47:47"/>
+            <LastModified _date="737614" _time="46067" date="08/07/2020" time="12:47:47"/>
           </Header>
           <ItemIsn val="16"/>
           <Resource>
@@ -1233,7 +1235,7 @@
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
-            <LogicUnit id="3145738" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+            <LogicUnit id="3145738" propagate="78">
               <Level val="H"/>
               <Type val="U"/>
               <Scope val="S"/>
@@ -1264,7 +1266,7 @@
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
-            <LogicUnit id="1048586" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+            <LogicUnit id="1048586" propagate="78">
               <Level val="H"/>
               <Type val="U"/>
               <Scope val="S"/>
@@ -1546,7 +1548,7 @@
           </EVNT>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="4" id="1"/>
           <Task MainProgram="N">
-            <Header Description="NewSubtask" ISN_2="3145732" id="3">
+            <Header Description="NewSubtask" ISN_2="3145732" LastIsn="5" id="3">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -1555,11 +1557,11 @@
                 <ParametersAttributes/>
               </ReturnValue>
               <SqlWhereExist val="N"/>
-              <TaskType val="O"/>
+              <TaskType val="B"/>
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737614" _time="46067" date="08/Jul/20" time="12:47:47"/>
+              <LastModified _date="737614" _time="46324" date="08/07/2020" time="12:52:04"/>
             </Header>
             <Resource>
               <Columns/>
@@ -1583,18 +1585,18 @@
                 <SelectionTable val="N"/>
                 <ConfirmUpdate CNFU="N"/>
                 <ConfirmCancel val="N"/>
-                <ErrorStrategy val="R"/>
-                <LockingStrategy val="M"/>
+                <ErrorStrategy val="A"/>
+                <LockingStrategy val="I"/>
                 <CacheStrategy val="N"/>
                 <ForceRecordSuffix val="N"/>
                 <TransactionMode val="W"/>
-                <TransactionBegin val="P"/>
+                <TransactionBegin val="T"/>
                 <PreloadView val="N"/>
-                <AllowEmptyDataview val="Y"/>
+                <AllowEmptyDataview val="N"/>
                 <KeepCreatedContext val="N"/>
               </TaskProperties>
               <SIDE_WIN>
-                <AllowOptions val="Y"/>
+                <AllowOptions val="N"/>
                 <AllowQuery val="Y"/>
                 <AllowModify val="Y"/>
                 <AllowCreate val="Y"/>
@@ -1611,7 +1613,7 @@
                 <AllowPrintingData val="N"/>
               </SIDE_WIN>
               <WIN>
-                <OpenTaskWindow val="Y"/>
+                <OpenTaskWindow val="N"/>
                 <CloseTaskWindow val="Y"/>
                 <ForegroundWindow val="Y"/>
                 <FlipFld val="N"/>
@@ -1682,7 +1684,7 @@
               </FormEntry>
             </TaskForms>
             <Task MainProgram="N">
-              <Header Description="NewNewSubSubtask" ISN_2="3145733" id="3">
+              <Header Description="NewNewSubSubtask" ISN_2="3145733" LastIsn="5" id="3">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -1695,7 +1697,7 @@
                 <External val="N"/>
                 <FormType val="N"/>
                 <DotNetObjectExists val="N"/>
-                <LastModified _date="737614" _time="46067" date="08/Jul/20" time="12:47:47"/>
+                <LastModified _date="737614" _time="46067" date="08/07/2020" time="12:47:47"/>
               </Header>
               <Resource>
                 <Columns/>
@@ -1790,7 +1792,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="subtask1" ISN_2="1048580" id="3">
+            <Header Description="subtask1" ISN_2="1048580" LastIsn="5" id="3">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -1803,7 +1805,7 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737614" _time="46067" date="08/Jul/20" time="12:47:47"/>
+              <LastModified _date="737614" _time="46067" date="08/07/2020" time="12:47:47"/>
             </Header>
             <Resource>
               <Columns/>
@@ -1896,7 +1898,7 @@
               </FormEntry>
             </TaskForms>
             <Task MainProgram="N">
-              <Header Description="subtask2" ISN_2="1048581" id="3">
+              <Header Description="subtask2" ISN_2="1048581" LastIsn="5" id="3">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -1909,7 +1911,7 @@
                 <External val="N"/>
                 <FormType val="N"/>
                 <DotNetObjectExists val="N"/>
-                <LastModified _date="737614" _time="46067" date="08/Jul/20" time="12:47:47"/>
+                <LastModified _date="737614" _time="46067" date="08/07/2020" time="12:47:47"/>
               </Header>
               <Resource>
                 <Columns/>
@@ -2005,7 +2007,7 @@
           </Task>
         </Task>
         <Task MainProgram="N">
-          <Header Description="Delete" ISN_2="3" LastIsn="3" id="3">
+          <Header Description="Delete" ISN_2="3" LastIsn="5" id="3">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -2021,7 +2023,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737614" _time="46067" date="08/Jul/20" time="12:47:47"/>
+            <LastModified _date="737614" _time="46067" date="08/07/2020" time="12:47:47"/>
           </Header>
           <ItemIsn val="16"/>
           <Resource>
@@ -2170,4 +2172,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
