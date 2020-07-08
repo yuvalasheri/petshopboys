@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737614" _time="32466" date="08/07/2020" time="09:01:06"/>
+          <LastModified _date="737614" _time="32748" date="08/07/2020" time="09:05:48"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -552,7 +552,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737614" _time="32466" date="08/07/2020" time="09:01:06"/>
+            <LastModified _date="737614" _time="32748" date="08/07/2020" time="09:05:48"/>
           </Header>
           <ItemIsn val="11"/>
           <Resource>
@@ -714,6 +714,12 @@
               </PropertyList>
             </FormEntry>
           </TaskForms>
+          <Expressions>
+            <Expression id="31457281">
+              <ExpSyntax val="'a'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+          </Expressions>
         </Task>
       </Task>
     </Programs>
