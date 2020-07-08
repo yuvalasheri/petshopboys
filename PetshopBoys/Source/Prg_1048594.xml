@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,9 +25,10 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737614" _time="32644" date="08/07/2020" time="09:04:04"/>
+          <LastModified _date="737614" _time="32894" date="07/08/2020" time="09:08:14"/>
+          <Comment val="7/8/2020 - Merge tool&#xD;&#xA;Merging different task types is not supported: animals - Source branch task merged&#xD;&#xA;"/>
         </Header>
-        <ItemIsn val="11"/>
+        <ItemIsn val="12"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -552,9 +551,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737614" _time="32644" date="08/07/2020" time="09:04:04"/>
+            <LastModified _date="737614" _time="32894" date="07/08/2020" time="09:08:14"/>
           </Header>
-          <ItemIsn val="11"/>
+          <ItemIsn val="12"/>
           <Resource>
             <DB id="1048577">
               <DataObject comp="-1" obj="2"/>
@@ -718,5 +717,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
