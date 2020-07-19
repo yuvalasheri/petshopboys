@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14061.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="0"/>
+  </Header>
+
+  <ProjectProperties>
+    <ProjectData>
+      <GUID val="{D884A900-7054-4FE7-BCDA-583278F84E94}"/>
+      <RemoteFlowMonitorRight comp="-1"/>
+      <ApplColorDefinitionFile val="%WorkingDir%\resources\Colors.eng"/>
+      <ApplFontDefinitionFile val="%WorkingDir%\resources\Fonts.eng"/>
+      <NulArithmetic val="N"/>
+      <WindowSortBy val="R"/>
+      <_SystemPulldownMenu comp="-1" obj="1"/>
+      <_SystemContextMenu comp="-1"/>
+      <ExposeComment val="N"/>
+      <ProjectName val="PetShopBoys"/>
+    </ProjectData>
+  </ProjectProperties>
+
+</Application>

@@ -1,0 +1,16 @@
+/Source/ProgramHeaders.xml
+/Source/DataSourcesIndex.xml
+*.log
+*.lock
+*.opt
+*.sln
+*.suo
+*.xpaproj
+/developer.ini
+/startdev.bat
+/temp/*
+/mglock.dat
+
+/*.optback
+/CrossRef.XRF
+*.edp
