@@ -5,9 +5,12 @@
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="36"/>
-    <LastIsnFolder val="17"/>
+    <LastIsn val="37"/>
+    <LastIsnFolder val="18"/>
     <Folders>
+      <Folder id="31457298">
+        <Name val="MSE2"/>
+      </Folder>
       <Folder id="1048593">
         <Name val="newfolder2"/>
       </Folder>
@@ -62,6 +65,7 @@
       <Program id="3145758"/>
       <Program id="3145756"/>
       <Program id="1048607"/>
+      <Program FolderIsn="31457298" id="31457317"/>
       <Program FolderIsn="1048593" id="1048612"/>
       <Program FolderIsn="31457296" id="31457315"/>
       <Program FolderIsn="14" id="30"/>
