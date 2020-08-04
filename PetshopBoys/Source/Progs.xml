@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="34"/>
-    <LastIsnFolder val="15"/>
+    <LastIsn val="35"/>
+    <LastIsnFolder val="16"/>
     <Folders>
+      <Folder id="31457296">
+        <Name val="newfolder1"/>
+      </Folder>
       <Folder id="14">
         <Name val="SNP-Customers"/>
       </Folder>
@@ -48,12 +52,14 @@
       </Folder>
     </Folders>
   </Header>
+
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
       <Program id="3145758"/>
       <Program id="3145756"/>
       <Program id="1048607"/>
+      <Program FolderIsn="31457296" id="31457315"/>
       <Program FolderIsn="14" id="30"/>
       <Program FolderIsn="11" id="25"/>
       <Program FolderIsn="3145739" id="3145753"/>
@@ -79,4 +85,5 @@
       <Program FolderIsn="4" id="6291489"/>
     </Programs>
   </ProgramsRepositoryOutLine>
+
 </Application>
