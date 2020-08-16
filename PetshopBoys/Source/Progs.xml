@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14061.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="38"/>
+    <LastIsn val="39"/>
     <LastIsnFolder val="19"/>
     <Folders>
       <Folder id="31457298">
@@ -60,6 +61,7 @@
       </Folder>
     </Folders>
   </Header>
+
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
@@ -95,4 +97,5 @@
       <Program FolderIsn="4" id="6291489"/>
     </Programs>
   </ProgramsRepositoryOutLine>
+
 </Application>

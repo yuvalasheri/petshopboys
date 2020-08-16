@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737641" _time="63490" date="04/08/2020" time="17:38:10"/>
+          <LastModified _date="737653" _time="36627" date="16/08/2020" time="10:10:27"/>
         </Header>
-        <ItemIsn val="6"/>
+        <ItemIsn val="7"/>
         <Resource>
           <DB id="31457281">
             <DataObject comp="-1" obj="5"/>
@@ -202,7 +202,6 @@
         <TaskForms>
           <FormEntry _last_isn="13" _last_test_id="13" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <Width id="23" val="326"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
@@ -235,6 +234,7 @@
                 <Data FieldID="31457281" id="43"/>
                 <ControlName id="46" val="Order ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
@@ -253,6 +253,7 @@
                 <Data FieldID="31457282" id="43"/>
                 <ControlName id="46" val="Order Line ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
@@ -271,6 +272,7 @@
                 <Data FieldID="31457283" id="43"/>
                 <ControlName id="46" val="Product ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
@@ -289,6 +291,7 @@
                 <Data FieldID="31457284" id="43"/>
                 <ControlName id="46" val="Quantity"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
                 <Border id="452"/>
               </PropertyList>
@@ -307,6 +310,7 @@
                 <Data FieldID="31457285" id="43"/>
                 <ControlName id="46" val="Price $"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
                 <Border id="452"/>
               </PropertyList>
@@ -325,6 +329,7 @@
                 <Data FieldID="31457286" id="43"/>
                 <ControlName id="46" val="Total Per Items"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="6"/>
                 <Border id="452"/>
               </PropertyList>
