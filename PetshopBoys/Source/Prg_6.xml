@@ -25,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737613" _time="81509" date="07/07/2020" time="22:38:29"/>
+          <LastModified _date="737656" _time="66422" date="08/19/2020" time="18:27:02"/>
         </Header>
-        <ItemIsn val="24"/>
+        <ItemIsn val="26"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -149,9 +149,6 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <INT_RCMP_INFO>
-                    <v>60</v>
-                  </INT_RCMP_INFO>
                   <_DitIndexForToolkit val="15"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -172,7 +169,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <Locate MAX="14" MIN="14"/>
+                  <Locate MAX="1048594" MIN="1048594"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -882,6 +879,10 @@
             <ExpSyntax val="{0,3}"/>
             <ExpAttribute val="N"/>
           </Expression>
+          <Expression id="31457299">
+            <ExpSyntax val="6"/>
+            <ExpAttribute val="N"/>
+          </Expression>
           <Expression id="3">
             <ExpSyntax val="'Confirm delete operation on order: '&amp;Str({0,1},'5')"/>
             <ExpAttribute val="A"/>
@@ -901,6 +902,14 @@
           <Expression id="17">
             <ExpSyntax val="Translate('%WorkingDir%')&amp;'Order_'&amp;Trim(Str({0,1},'5'))&amp;'.pdf'"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="31457298">
+            <ExpSyntax val="6"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="1048594">
+            <ExpSyntax val="5"/>
+            <ExpAttribute val="N"/>
           </Expression>
         </Expressions>
         <EVNT DESC="Select" FORCE_EXIT="N" id="1">
@@ -936,9 +945,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737613" _time="81509" date="07/07/2020" time="22:38:29"/>
+            <LastModified _date="737656" _time="66422" date="08/19/2020" time="18:27:02"/>
           </Header>
-          <ItemIsn val="24"/>
+          <ItemIsn val="26"/>
           <Resource>
             <DB id="1048577">
               <DataObject comp="-1" obj="1"/>
@@ -2099,9 +2108,9 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737613" _time="81509" date="07/07/2020" time="22:38:29"/>
+              <LastModified _date="737656" _time="66422" date="08/19/2020" time="18:27:02"/>
             </Header>
-            <ItemIsn val="24"/>
+            <ItemIsn val="26"/>
             <Resource>
               <DB id="1048577">
                 <DataObject comp="-1" obj="3"/>
@@ -2122,10 +2131,15 @@
               <Columns>
                 <Column id="1048577" name="pi.Order ID">
                   <PropertyList model="FIELD">
-                    <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
+                    <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                    <Picture id="157" valUnicode="7"/>
                     <DbColumnName id="178"/>
                     <Type id="179"/>
                     <UserType id="180"/>
+                    <_Dec id="181"/>
+                    <_Whole id="182" val="7"/>
+                    <_Negative id="192"/>
+                    <_FieldStyle id="276" val="1"/>
                   </PropertyList>
                 </Column>
                 <Column id="1048578" name="v.Link Product">
@@ -2881,9 +2895,9 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737613" _time="81509" date="07/07/2020" time="22:38:29"/>
+              <LastModified _date="737656" _time="66422" date="08/19/2020" time="18:27:02"/>
             </Header>
-            <ItemIsn val="24"/>
+            <ItemIsn val="26"/>
             <Resource>
               <DB id="1048577">
                 <DataObject comp="-1" obj="3"/>
@@ -3387,9 +3401,9 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737613" _time="81509" date="07/07/2020" time="22:38:29"/>
+              <LastModified _date="737656" _time="66422" date="08/19/2020" time="18:27:02"/>
             </Header>
-            <ItemIsn val="24"/>
+            <ItemIsn val="26"/>
             <Resource>
               <DB id="1048577">
                 <DataObject comp="-1" obj="3"/>
@@ -3644,9 +3658,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737613" _time="81509" date="07/07/2020" time="22:38:29"/>
+            <LastModified _date="737656" _time="66422" date="08/19/2020" time="18:27:02"/>
           </Header>
-          <ItemIsn val="24"/>
+          <ItemIsn val="26"/>
           <Resource>
             <DB id="1048577">
               <DataObject comp="-1" obj="4"/>
@@ -3833,9 +3847,9 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737613" _time="81509" date="07/07/2020" time="22:38:29"/>
+              <LastModified _date="737656" _time="66422" date="08/19/2020" time="18:27:02"/>
             </Header>
-            <ItemIsn val="24"/>
+            <ItemIsn val="26"/>
             <Resource>
               <DB id="1048577">
                 <DataObject comp="-1" obj="5"/>
