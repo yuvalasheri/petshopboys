@@ -4,14 +4,14 @@
   <_Project>
     <ProjectName val="PetShopBoys"/>
     <VCProjectID val="0"/>
-    <VCActive val="Y"/>
+    <VCActive val="N"/>
     <WorkOffline val="N"/>
-    <VCUseGitPlugin val="Y"/>
+    <VCUseGitPlugin val="N"/>
     <SourceDirectory val="Source"/>
     <ExportsDirectory val="Exports"/>
     <GUID val="{D884A900-7054-4FE7-BCDA-583278F84E94}"/>
     <Version min="13020.10"/>
-    <SourceVersion val="14061.00"/>
+    <SourceVersion val="14070.00"/>
   </_Project>
 
 </Application>
