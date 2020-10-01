@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737699" _time="43326" date="01/10/2020" time="12:02:06"/>
+          <LastModified _date="737699" _time="43516" date="10/01/2020" time="12:05:16"/>
         </Header>
-        <ItemIsn val="16"/>
+        <ItemIsn val="17"/>
         <Resource>
           <DB id="22020097">
             <DataObject comp="-1" obj="4"/>
@@ -59,6 +57,15 @@
               </PropertyList>
             </Column>
             <Column id="4" name="v_1dev">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="369098756" name="v_1f1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -152,7 +159,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <REAL_VNAME_TXT val="Order ID-dev"/>
+                  <REAL_VNAME_TXT val="Order IDLocal-f1"/>
                   <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -265,6 +272,18 @@
               <LogicLine>
                 <Select FieldID="16" FlowIsn="18" id="16">
                   <Column val="4"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="369098768" FlowIsn="369098770" id="369098768">
+                  <Column val="369098756"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
@@ -490,9 +509,12 @@
             <ExpSyntax val="'dev-myexp'"/>
             <ExpAttribute val="A"/>
           </Expression>
+          <Expression id="369098753">
+            <ExpSyntax val="'f1-myexp'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
