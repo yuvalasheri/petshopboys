@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14070.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737611" _time="79092" date="05/07/2020" time="21:58:12"/>
+          <LastModified _date="737699" _time="43326" date="01/10/2020" time="12:02:06"/>
         </Header>
-        <ItemIsn val="15"/>
+        <ItemIsn val="16"/>
         <Resource>
           <DB id="22020097">
             <DataObject comp="-1" obj="4"/>
@@ -55,6 +55,15 @@
                 <Picture id="157" valUnicode="10"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="10"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="4" name="v_1dev">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -143,6 +152,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <REAL_VNAME_TXT val="Order ID-dev"/>
                   <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -243,6 +253,18 @@
               <LogicLine>
                 <Select FieldID="22020110" FlowIsn="22020113" id="22020110">
                   <Column val="22020099"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="16" FlowIsn="18" id="16">
+                  <Column val="4"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
@@ -463,6 +485,12 @@
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="'dev-myexp'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
