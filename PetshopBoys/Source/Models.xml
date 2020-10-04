@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="18"/>
-    <LastIsnFolder val="0"/>
+    <LastIsn val="20"/>
+    <LastIsnFolder val="1"/>
   </Header>
-
   <ModelsRepository>
     <Models>
       <Object id="1" name="ID">
@@ -154,7 +152,12 @@
           <V11ButtonStyle id="537" val="1"/>
         </PropertyList>
       </Object>
+      <Object id="19" name="develop-checkbox">
+        <PropertyList model="CTRL_GUI0_CHECKBOX"/>
+      </Object>
+      <Object id="369098771" name="f1button">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
+      </Object>
     </Models>
   </ModelsRepository>
-
 </Application>
