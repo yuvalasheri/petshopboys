@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737710" _time="39870" date="12/10/2020" time="11:04:30"/>
+          <LastModified _date="737710" _time="42346" date="12/10/2020" time="11:45:46"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -498,6 +498,12 @@
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="34603009">
+            <ExpSyntax val="'HELLO WORLD!'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
