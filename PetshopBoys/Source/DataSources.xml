@@ -1,10 +1,10 @@
 <Application>
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14070.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="14"/>
-    <LastIsnFolder val="5"/>
+    <LastIsn val="15"/>
+    <LastIsnFolder val="6"/>
   </Header>
   <DataRepositoryProperties/>
   <DataSourceRepository>
@@ -895,7 +895,7 @@
         <ForeignKeys/>
         <WebS/>
       </DataObject>
-      <DataObject PhysicalName="GHO-Table" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="6291467" name="GHO-Table">
+      <DataObject PhysicalName="GHO-Table" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="6291467" name="GHO-TableBR1.1">
         <Encrypt val="N"/>
         <Cache val="D"/>
         <IdentifyRowModifications val="U"/>
