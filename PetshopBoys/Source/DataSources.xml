@@ -1,14 +1,23 @@
-<Application>
-  <Header>
-    <Version val="14061.00"/>
-    <WithIsn val="Y"/>
-    <Exe comp="-1"/>
-    <LastIsn val="14"/>
-    <LastIsnFolder val="5"/>
-  </Header>
-  <DataRepositoryProperties/>
-  <DataSourceRepository>
-    <DataObjects>
+ <Application>
+ 
+<Header>
+
+  <Version val="14070.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="14"/>
+
+  <LastIsnFolder val="5"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
       <DataObject PhysicalName="Customers" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="1" name="Customers">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -172,7 +181,7 @@
         </Indexes>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="Customers_Animals" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="2" name="Customers Animals">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -269,7 +278,7 @@
         </Indexes>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="Products" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="3" name="Products">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -373,7 +382,7 @@
         </Indexes>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="Orders" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="4" name="Orders">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -533,7 +542,7 @@
         </Indexes>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="Orders_Lines" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="5" name="Orders Lines">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -669,7 +678,7 @@
         </Indexes>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="NSHCustomers" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="6" name="NSH-Customers">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -715,7 +724,7 @@
         <Indexes/>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="MGU_DS" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="3145735" name="MGU_DS">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -754,7 +763,7 @@
         <Indexes/>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="Table_NS" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="5242886" name="Table NS">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -804,7 +813,7 @@
         <Indexes/>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="CSC-AwesomeTable" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="7" name="CSC-AwesomeTable">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -854,7 +863,7 @@
         <Indexes/>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
+      </DataObject> 
       <DataObject PhysicalName="ya-customeraddresses" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="1048582" name="ya-customeraddresses">
         <Encrypt val="N"/>
         <Cache val="D"/>
@@ -894,46 +903,60 @@
         <Indexes/>
         <ForeignKeys/>
         <WebS/>
-      </DataObject>
-      <DataObject PhysicalName="GHO-Table" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="6291467" name="GHO-Table">
-        <Encrypt val="N"/>
-        <Cache val="D"/>
-        <IdentifyRowModifications val="U"/>
-        <HasHint val="Y"/>
-        <Cursor val="D"/>
-        <CheckExistence val="D"/>
-        <ObjectType val="T"/>
-        <Position val="D"/>
-        <PositionIndex val="-1"/>
-        <MetaTreeRTIndex val="-1"/>
-        <Columns>
-          <Column id="6291457" name="ID">
-            <PropertyList model="FIELD">
-              <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
-              <StoredAs id="173" val="4"/>
-              <Size id="174" val="4"/>
-              <Definition id="175" val="2"/>
-              <DbColumnName id="178" val="ID"/>
-              <_Flip id="194"/>
-              <_FieldPhysical Name="ID" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-            </PropertyList>
-          </Column>
-          <Column id="6291458" name="name">
-            <PropertyList model="FIELD">
-              <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="2"/>
-              <StoredAs id="173" val="3"/>
-              <Size id="174" val="20"/>
-              <Definition id="175" val="2"/>
-              <DbColumnName id="178" val="name"/>
-              <_Flip id="194"/>
-              <_FieldPhysical Name="name" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
-            </PropertyList>
-          </Column>
-        </Columns>
-        <Indexes/>
-        <ForeignKeys/>
-        <WebS/>
-      </DataObject>
-    </DataObjects>
-  </DataSourceRepository>
-</Application>
+      </DataObject> 
+<DataObject PhysicalName="GHO-Table" Resident="N" UniqueISNConvState="12" data_source="PetShopBoys" id="6291467" name="GHO-Table BR1.2">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="6291457" name="ID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="ID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="ID" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="6291458" name="name">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="2"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="name"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="name" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>
