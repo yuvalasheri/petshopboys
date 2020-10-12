@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="20"/>
-    <LastIsnFolder val="1"/>
+    <LastIsn val="21"/>
+    <LastIsnFolder val="2"/>
   </Header>
-
   <ModelsRepository>
     <Models>
       <Object id="1" name="ID">
@@ -147,7 +145,7 @@
           <V11TableInWindow id="535" val="Y"/>
         </PropertyList>
       </Object>
-      <Object id="13" name="Button">
+      <Object id="13" name="Button_changed">
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
           <ControlName id="46" val="btn."/>
           <Font id="50" val="13"/>
@@ -162,5 +160,4 @@
       </Object>
     </Models>
   </ModelsRepository>
-
 </Application>
