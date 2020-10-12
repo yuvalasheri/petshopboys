@@ -3,8 +3,8 @@
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="22"/>
-    <LastIsnFolder val="2"/>
+    <LastIsn val="23"/>
+    <LastIsnFolder val="3"/>
   </Header>
   <ModelsRepository>
     <Models>
@@ -159,6 +159,9 @@
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
       </Object>
       <Object id="36700181" name="ev_br1_edit1">
+        <PropertyList model="CTRL_GUI0_EDIT"/>
+      </Object>
+      <Object id="70254614" name="ev_br2_edit">
         <PropertyList model="CTRL_GUI0_EDIT"/>
       </Object>
     </Models>
