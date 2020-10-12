@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737710" _time="42113" date="12/10/2020" time="11:41:53"/>
+          <LastModified _date="737710" _time="42726" date="12/10/2020" time="11:52:06"/>
         </Header>
-        <ItemIsn val="3"/>
+        <ItemIsn val="4"/>
         <Resource>
           <Columns>
             <Column id="71303169" name="v.TESt222My cahgan">
@@ -39,7 +41,13 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="71303170" name="v.TEST222_changed_oliver1">
+            <Column id="4194307" name="Neue">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <StoredAs id="173" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="71303170" name="v.TEST222_chang">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="10"/>
@@ -139,6 +147,18 @@
                 </Select>
               </LogicLine>
               <LogicLine>
+                <Select FieldID="4194308" FlowIsn="4194309" id="4194308">
+                  <Column val="4194307"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
                 <Select FieldID="71303170" FlowIsn="71303172" id="71303170">
                   <Column val="71303170"/>
                   <Type val="V"/>
@@ -164,4 +184,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
