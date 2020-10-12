@@ -4,8 +4,8 @@
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="46"/>
-    <LastIsnFolder val="20"/>
+    <LastIsn val="47"/>
+    <LastIsnFolder val="21"/>
     <Folders>
       <Folder id="31457298">
         <Name val="MSE2"/>
@@ -98,6 +98,8 @@
       <Program FolderIsn="4" id="40"/>
       <Program FolderIsn="4" id="31457321"/>
       <Program FolderIsn="4" id="234881067"/>
+      <Program FolderIsn="4" id="71303212"/>
+      <Program FolderIsn="4" id="71303213"/>
       <Program FolderIsn="4" id="103809069"/>
     </Programs>
   </ProgramsRepositoryOutLine>

@@ -3,8 +3,8 @@
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="25"/>
-    <LastIsnFolder val="5"/>
+    <LastIsn val="26"/>
+    <LastIsnFolder val="6"/>
   </Header>
   <ModelsRepository>
     <Models>
@@ -93,7 +93,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="17" name="Animal Type">
+      <Object id="17" name="Animal Type_changed">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
           <Range id="98" valUnicode="Dog,Cat,Fish,Mouse,Bird,Iguana,Snake,Rabbit"/>
@@ -102,7 +102,7 @@
           <_Flip id="194"/>
         </PropertyList>
       </Object>
-      <Object id="11" name="Form">
+      <Object id="11" name="Form_changed">
         <PropertyList model="FORM_GUI0">
           <Height id="24" val="215"/>
           <MaximizeButton id="29"/>
@@ -145,7 +145,7 @@
           <V11TableInWindow id="535" val="Y"/>
         </PropertyList>
       </Object>
-      <Object id="13" name="Button">
+      <Object id="13" name="Button_changed">
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
           <ControlName id="46" val="btn."/>
           <Font id="50" val="13"/>
