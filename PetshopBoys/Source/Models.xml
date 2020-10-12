@@ -160,9 +160,6 @@
       <Object id="369098771" name="f1button">
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
       </Object>
-      <Object id="3145749" name="evbr1_edit">
-        <PropertyList model="CTRL_GUI0_EDIT"/>
-      </Object>
     </Models>
   </ModelsRepository>
 

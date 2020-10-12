@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737710" _time="40498" date="12/10/2020" time="11:14:58"/>
+          <LastModified _date="737710" _time="40608" date="12/10/2020" time="11:16:48"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -39,22 +39,7 @@
             <Cache val="Y"/>
             <IdentifyRowModifications val="84"/>
           </DB>
-          <Columns>
-            <Column id="3145729" name="evbr1_Edit1">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="30"/>
-                <GuiDisplay id="158">
-                  <PropertyList model="CTRL_GUI0_EDIT">
-                    <Model comp="-1" id="1" obj="3145749"/>
-                  </PropertyList>
-                </GuiDisplay>
-                <StoredAs id="173" val="1"/>
-                <Size id="174" val="30"/>
-                <_Flip id="194"/>
-              </PropertyList>
-            </Column>
-          </Columns>
+          <Columns/>
         </Resource>
         <Information>
           <Key>
@@ -244,18 +229,6 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
                   <_DitIndexForToolkit val="10"/>
-                  <DIFF_UPDATE val="T"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
-                <Select FieldID="3145738" FlowIsn="3145749" id="3145738">
-                  <Column val="3145729"/>
-                  <Type val="V"/>
-                  <ExposedToRoute val="N"/>
-                  <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
