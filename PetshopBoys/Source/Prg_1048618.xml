@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737710" _time="42585" date="12/10/2020" time="11:49:45"/>
+          <LastModified _date="737710" _time="42654" date="12/10/2020" time="11:50:54"/>
         </Header>
         <ItemIsn val="13"/>
         <Resource>
@@ -38,7 +40,7 @@
             <IdentifyRowModifications val="84"/>
           </DB>
           <Columns>
-            <Column id="36700161" name="ev_br1_merge_test_1">
+            <Column id="36700161" name="ev_br1_merge_test_2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="30"/>
@@ -551,4 +553,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
