@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737710" _time="44016" date="12/10/2020" time="12:13:36"/>
+          <LastModified _date="737710" _time="44142" date="12/10/2020" time="12:15:42"/>
         </Header>
         <ItemIsn val="17"/>
         <Resource>
@@ -582,8 +582,8 @@
             <Control PDOD="128" _test_id="20" id="34603028">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                 <Model comp="-1" id="1" obj="34603029"/>
-                <X id="21" val="323"/>
-                <Y id="22" val="204"/>
+                <X id="21" val="489"/>
+                <Y id="22" val="203"/>
                 <Width id="23" val="92"/>
                 <Height id="24" val="40"/>
                 <Color id="51" val="15"/>
