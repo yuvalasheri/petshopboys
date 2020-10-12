@@ -25,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737710" _time="41287" date="12/10/2020" time="11:28:07"/>
+          <LastModified _date="737710" _time="42585" date="12/10/2020" time="11:49:45"/>
         </Header>
-        <ItemIsn val="12"/>
+        <ItemIsn val="13"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -38,7 +38,7 @@
             <IdentifyRowModifications val="84"/>
           </DB>
           <Columns>
-            <Column id="36700161" name="ev_br1">
+            <Column id="36700161" name="ev_br1_merge_test_1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="30"/>
