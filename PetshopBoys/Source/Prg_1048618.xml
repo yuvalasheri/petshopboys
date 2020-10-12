@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14070.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737659" _time="72743" date="22/08/2020" time="20:12:23"/>
+          <LastModified _date="737710" _time="43567" date="12/10/2020" time="12:06:07"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -124,6 +124,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <REAL_VNAME_TXT val="Customer ID_br2"/>
                   <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -241,7 +242,6 @@
         <TaskForms>
           <FormEntry _last_isn="19" _last_test_id="19" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <Width id="23" val="802"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
@@ -274,6 +274,7 @@
                 <Data FieldID="1048577" id="43"/>
                 <ControlName id="46" val="Customer ID"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
@@ -292,6 +293,7 @@
                 <Data FieldID="1048578" id="43"/>
                 <ControlName id="46" val="Last Name"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
@@ -310,6 +312,7 @@
                 <Data FieldID="1048579" id="43"/>
                 <ControlName id="46" val="First Name"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
@@ -328,6 +331,7 @@
                 <Data FieldID="1048580" id="43"/>
                 <ControlName id="46" val="Member Since"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
                 <Border id="452"/>
               </PropertyList>
@@ -346,6 +350,7 @@
                 <Data FieldID="1048581" id="43"/>
                 <ControlName id="46" val="Phone Number"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
                 <Border id="452"/>
               </PropertyList>
@@ -364,6 +369,7 @@
                 <Data FieldID="1048582" id="43"/>
                 <ControlName id="46" val="House Number"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="6"/>
                 <Border id="452"/>
               </PropertyList>
@@ -382,6 +388,7 @@
                 <Data FieldID="1048583" id="43"/>
                 <ControlName id="46" val="Street"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="7"/>
                 <Border id="452"/>
               </PropertyList>
@@ -400,6 +407,7 @@
                 <Data FieldID="1048584" id="43"/>
                 <ControlName id="46" val="City"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="8"/>
                 <Border id="452"/>
               </PropertyList>
@@ -418,6 +426,7 @@
                 <Data FieldID="1048585" id="43"/>
                 <ControlName id="46" val="Zip Code"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="9"/>
                 <Border id="452"/>
               </PropertyList>
@@ -489,6 +498,12 @@
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="469762049">
+            <ExpSyntax val="'br2_exp'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
