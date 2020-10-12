@@ -4,7 +4,7 @@
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="21"/>
+    <LastIsn val="22"/>
     <LastIsnFolder val="1"/>
   </Header>
 
@@ -159,6 +159,9 @@
       </Object>
       <Object id="369098771" name="f1button">
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
+      </Object>
+      <Object id="70254614" name="ev_br2_edit">
+        <PropertyList model="CTRL_GUI0_EDIT"/>
       </Object>
     </Models>
   </ModelsRepository>
