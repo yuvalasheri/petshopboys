@@ -3,8 +3,8 @@
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="21"/>
-    <LastIsnFolder val="2"/>
+    <LastIsn val="25"/>
+    <LastIsnFolder val="5"/>
   </Header>
   <ModelsRepository>
     <Models>
@@ -157,6 +157,18 @@
       </Object>
       <Object id="369098771" name="f1button">
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
+      </Object>
+      <Object id="436207637" name="br1_pb">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
+      </Object>
+      <Object id="469762069" name="br2_cb">
+        <PropertyList model="CTRL_GUI0_CHECKBOX"/>
+      </Object>
+      <Object id="36700181" name="ev_br1_edit1">
+        <PropertyList model="CTRL_GUI0_EDIT"/>
+      </Object>
+      <Object id="70254614" name="ev_br2_edit">
+        <PropertyList model="CTRL_GUI0_EDIT"/>
       </Object>
     </Models>
   </ModelsRepository>
