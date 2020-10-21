@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14070.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737653" _time="36627" date="16/08/2020" time="10:10:27"/>
+          <LastModified _date="737719" _time="57570" date="21/10/2020" time="15:59:30"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -124,6 +124,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <REAL_VNAME_TXT val="Order IDLocal"/>
                   <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -380,6 +381,12 @@
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="'clone1-exp'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
