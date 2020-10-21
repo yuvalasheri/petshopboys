@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737719" _time="57706" date="21/10/2020" time="16:01:46"/>
+          <LastModified _date="737719" _time="58019" date="10/21/2020" time="16:06:59"/>
         </Header>
-        <ItemIsn val="7"/>
+        <ItemIsn val="8"/>
         <Resource>
           <DB id="31457281">
             <DataObject comp="-1" obj="5"/>
@@ -124,7 +122,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <REAL_VNAME_TXT val="Order IDRemote"/>
+                  <REAL_VNAME_TXT val="Order IDLocal"/>
                   <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -383,12 +381,11 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="'clone2-exp'"/>
+            <ExpSyntax val="'clone1-exp'"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
