@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14070.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737604" _time="49515" date="28/06/2020" time="13:45:15"/>
+          <LastModified _date="737747" _time="76848" date="18/11/2020" time="21:20:48"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -190,6 +190,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <REAL_VNAME_TXT val="Customer ID_local"/>
                   <Range MAX="10" MIN="10"/>
                   <INT_DIT_INFO>
                     <v>14</v>
@@ -541,6 +542,37 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="301989896" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="301989890"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="301989954">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="3145756"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="18" _last_test_id="18" id="1">
@@ -817,8 +849,17 @@
             <ExpSyntax val="{0,1}"/>
             <ExpAttribute val="N"/>
           </Expression>
+          <Expression id="301989901">
+            <ExpSyntax val="'b1-exp'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
         <EVNT DESC="Select" FORCE_EXIT="N" id="1">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="b1_event1" FORCE_EXIT="N" id="301989890">
           <Event>
             <EventType val="N"/>
           </Event>
