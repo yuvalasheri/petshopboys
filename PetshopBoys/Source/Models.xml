@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="26"/>
+    <LastIsn val="27"/>
     <LastIsnFolder val="6"/>
   </Header>
+
   <ModelsRepository>
     <Models>
       <Object id="1" name="ID">
@@ -178,6 +180,10 @@
       <Object id="70254614" name="ev_br2_edit">
         <PropertyList model="CTRL_GUI0_EDIT"/>
       </Object>
+      <Object id="134217755" name="b2_pushbutton">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
+      </Object>
     </Models>
   </ModelsRepository>
+
 </Application>
