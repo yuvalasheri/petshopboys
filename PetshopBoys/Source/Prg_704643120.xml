@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737766" _time="65139" date="07/12/2020" time="18:05:39"/>
+          <LastModified _date="737766" _time="66807" date="07/12/2020" time="18:33:27"/>
         </Header>
-        <ItemIsn val="2"/>
+        <ItemIsn val="3"/>
         <Resource>
           <Columns>
             <Column id="704643073" name="menuno">
@@ -43,6 +43,15 @@
               </PropertyList>
             </Column>
             <Column id="704643074" name="menuitem">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="704643075" name="menudsc">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="10"/>
@@ -155,13 +164,24 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="704643075" FlowIsn="704643077" id="704643075">
+                  <Column val="704643075"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="4" _last_test_id="4" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Newmenu"/>
             </PropertyList>
@@ -174,6 +194,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="1" _test_id="1" id="704643073">
@@ -187,6 +208,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="704643073" id="43"/>
                 <ControlName id="46" val="menuno"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -199,6 +221,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="2" id="704643074">
@@ -212,6 +235,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="704643074" id="43"/>
                 <ControlName id="46" val="menuitem"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
