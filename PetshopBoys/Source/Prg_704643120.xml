@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="704643120">
+        <Header Description="Newmenu" ISN_2="1" LastIsn="1" id="704643120">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,16 +27,37 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="737766" _time="65139" date="07/12/2020" time="18:05:39"/>
         </Header>
+        <ItemIsn val="2"/>
         <Resource>
-          <Columns/>
+          <Columns>
+            <Column id="704643073" name="menuno">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="5"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="704643074" name="menuitem">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+          </Columns>
         </Resource>
         <Information>
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -108,15 +129,92 @@
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="704643073" FlowIsn="704643075" id="704643073">
+                  <Column val="704643073"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="704643074" FlowIsn="704643076" id="704643074">
+                  <Column val="704643074"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="4" _last_test_id="4" id="1">
             <PropertyList model="FORM_GUI0">
+              <Model id="1"/>
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="Newmenu"/>
             </PropertyList>
+            <Control _test_id="3" id="704643075">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="menuno:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="35"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="1" _test_id="1" id="704643073">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="704643073"/>
+                </Model>
+                <X id="21" val="50"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="27"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="704643073" id="43"/>
+                <ControlName id="46" val="menuno"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="4" id="704643076">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="menuitem:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="26"/>
+                <Width id="23" val="42"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="2" id="704643074">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="704643074"/>
+                </Model>
+                <X id="21" val="50"/>
+                <Y id="22" val="26"/>
+                <Width id="23" val="51"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="704643074" id="43"/>
+                <ControlName id="46" val="menuitem"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
