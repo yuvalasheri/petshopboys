@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
@@ -9,11 +8,10 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Newmenu" ISN_2="1" LastIsn="2" id="704643120">
+        <Header Description="Newmenu" ISN_2="1" LastIsn="1" id="704643120">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737767" _time="64736" date="08/12/2020" time="17:58:56"/>
+          <LastModified _date="737767" _time="64901" date="12/08/2020" time="18:01:41"/>
         </Header>
-        <ItemIsn val="3"/>
+        <ItemIsn val="4"/>
         <Resource>
           <Columns>
             <Column id="704643073" name="menuno">
@@ -178,7 +176,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="3" propagate="78">
+          <LogicUnit id="3" propagate="78" CreatedBy="MergeTool" FullCopy="1">
             <Level val="T"/>
             <Type val="S"/>
             <Scope val="S"/>
@@ -211,6 +209,36 @@
                   <Type val="2"/>
                   <Text val=" "/>
                 </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="704643075" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+            <Level val="T"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="704643078">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="3145756"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </CallTask>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -291,7 +319,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737767" _time="64736" date="08/12/2020" time="17:58:56"/>
+            <LastModified _date="737767" _time="64901" date="12/08/2020" time="18:01:41"/>
           </Header>
           <Resource>
             <Columns/>
@@ -387,5 +415,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
