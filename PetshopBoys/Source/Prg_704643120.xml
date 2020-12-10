@@ -25,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737767" _time="64901" date="12/08/2020" time="18:01:41"/>
+          <LastModified _date="737769" _time="61754" date="12/10/2020" time="17:09:14"/>
         </Header>
-        <ItemIsn val="4"/>
+        <ItemIsn val="6"/>
         <Resource>
           <Columns>
             <Column id="704643073" name="menuno">
@@ -55,6 +55,24 @@
                 <Picture id="157" valUnicode="10"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="10"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="704643076" name="menu4">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="704643077" name="5">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="6"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="6"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -174,6 +192,30 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="704643076" FlowIsn="704643079" id="704643076">
+                  <Column val="704643076"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="704643077" FlowIsn="704643081" id="704643077">
+                  <Column val="704643077"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="3" propagate="78" CreatedBy="MergeTool" FullCopy="1">
@@ -212,7 +254,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="704643075" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+          <LogicUnit id="704643075" propagate="78">
             <Level val="T"/>
             <Type val="P"/>
             <Scope val="S"/>
@@ -319,7 +361,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737767" _time="64901" date="12/08/2020" time="18:01:41"/>
+            <LastModified _date="737769" _time="61754" date="12/10/2020" time="17:09:14"/>
           </Header>
           <Resource>
             <Columns/>
