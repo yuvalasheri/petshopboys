@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
@@ -8,10 +9,11 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Newmenu" ISN_2="1" LastIsn="1" id="704643120">
+        <Header Description="Newmenu" ISN_2="1" LastIsn="2" id="704643120">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -25,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737769" _time="61754" date="12/10/2020" time="17:09:14"/>
+          <LastModified _date="737769" _time="61809" date="10/12/2020" time="17:10:09"/>
         </Header>
-        <ItemIsn val="6"/>
+        <ItemIsn val="7"/>
         <Resource>
           <Columns>
             <Column id="704643073" name="menuno">
@@ -73,6 +75,15 @@
                 <Picture id="157" valUnicode="6"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="6"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="301989894" name="b1">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -216,9 +227,21 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="301989895" FlowIsn="301989901" id="301989895">
+                  <Column val="301989894"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="3" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+          <LogicUnit id="3" propagate="78">
             <Level val="T"/>
             <Type val="S"/>
             <Scope val="S"/>
@@ -348,7 +371,7 @@
           </FormEntry>
         </TaskForms>
         <Task MainProgram="N">
-          <Header Description="SF1" ISN_2="2" id="704643120">
+          <Header Description="SF1" ISN_2="2" LastIsn="2" id="704643120">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -361,7 +384,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737769" _time="61754" date="12/10/2020" time="17:09:14"/>
+            <LastModified _date="737769" _time="61754" date="10/12/2020" time="17:09:14"/>
           </Header>
           <Resource>
             <Columns/>
@@ -457,4 +480,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
