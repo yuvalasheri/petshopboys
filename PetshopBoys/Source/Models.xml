@@ -4,7 +4,7 @@
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="29"/>
+    <LastIsn val="30"/>
     <LastIsnFolder val="7"/>
   </Header>
 
@@ -188,6 +188,9 @@
       </Object>
       <Object id="704643101" name="newmenupb">
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
+      </Object>
+      <Object id="134217758" name="b2_cb">
+        <PropertyList model="CTRL_GUI0_CHECKBOX"/>
       </Object>
     </Models>
   </ModelsRepository>
