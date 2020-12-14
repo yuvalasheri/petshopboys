@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
@@ -8,10 +9,11 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Customers List" ISN_2="1" LastIsn="4" id="2">
+        <Header Description="Customers List" ISN_2="1" LastIsn="5" id="2">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,9 +31,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737773" _time="59857" date="12/14/2020" time="16:37:37"/>
+          <LastModified _date="737773" _time="60731" date="14/12/2020" time="16:52:11"/>
         </Header>
-        <ItemIsn val="16"/>
+        <ItemIsn val="17"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -56,6 +58,15 @@
                 <DbColumnName id="178"/>
                 <Type id="179"/>
                 <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="167772164" name="v_1">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
+                <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="1048579" name="v.Orders Exist">
@@ -177,6 +188,19 @@
                 </Select>
               </LogicLine>
               <LogicLine>
+                <Select FieldID="167772177" FlowIsn="167772223" id="167772177">
+                  <Column val="167772164"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="28">
                   <Type val="0"/>
                   <Text val=" "/>
@@ -195,7 +219,7 @@
                     <v>20</v>
                     <v>18</v>
                   </INT_DIT_INFO>
-                  <_DitIndexForToolkit val="11"/>
+                  <_DitIndexForToolkit val="13"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -208,7 +232,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="12"/>
+                  <_DitIndexForToolkit val="14"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -221,7 +245,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="13"/>
+                  <_DitIndexForToolkit val="15"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -234,7 +258,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="14"/>
+                  <_DitIndexForToolkit val="16"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -247,7 +271,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="15"/>
+                  <_DitIndexForToolkit val="17"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -601,7 +625,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="301989897" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+          <LogicUnit id="301989897" propagate="78">
             <Level val="H"/>
             <Type val="U"/>
             <Scope val="S"/>
@@ -632,7 +656,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="134217737" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+          <LogicUnit id="134217737" propagate="78">
             <Level val="H"/>
             <Type val="U"/>
             <Scope val="S"/>
@@ -663,9 +687,40 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="167772171" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="167772164"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="167772224">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="704643120"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="20" _last_test_id="20" id="1">
+          <FormEntry _last_isn="24" _last_test_id="24" id="1">
             <PropertyList model="FORM_GUI0">
               <Model comp="-1" id="1" obj="11"/>
               <X id="21"/>
@@ -676,6 +731,32 @@
               <FormName id="311" valUnicode="Customers List"/>
               <PersistentFormState id="493"/>
             </PropertyList>
+            <Control _test_id="24" id="167772184">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="v_1"/>
+                <X id="21" val="130"/>
+                <Y id="22" val="272"/>
+                <Width id="23" val="16"/>
+                <Height id="24" val="9"/>
+                <Font id="50" val="1"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="23" id="167772183">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="167772177"/>
+                </Model>
+                <X id="21" val="148"/>
+                <Y id="22" val="272"/>
+                <Width id="23" val="51"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="167772177" id="43"/>
+                <ControlName id="46" val="v_1"/>
+                <TabOrder id="314" val="13"/>
+              </PropertyList>
+            </Control>
             <Control PDOD="128" _test_id="13" id="13">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                 <Model comp="-1" id="1" obj="13"/>
@@ -976,7 +1057,7 @@
                   <EventType val="U"/>
                   <PublicObject comp="-1" obj="2"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="13"/>
+                <TabOrder id="314" val="14"/>
               </PropertyList>
             </Control>
           </FormEntry>
@@ -1058,8 +1139,13 @@
             <EventType val="N"/>
           </Event>
         </EVNT>
+        <EVNT DESC="b3_ue" FORCE_EXIT="N" id="167772164">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
         <Task MainProgram="N">
-          <Header Description="Properties Form" ISN_2="2" LastIsn="2" id="2">
+          <Header Description="Properties Form" ISN_2="2" LastIsn="5" id="2">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1076,7 +1162,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737773" _time="59857" date="12/14/2020" time="16:37:37"/>
+            <LastModified _date="737773" _time="59857" date="14/12/2020" time="16:37:37"/>
           </Header>
           <ItemIsn val="16"/>
           <Resource>
@@ -2018,7 +2104,7 @@
           <VarRangeInfo Mode="E" VarRangeVeeIsn="4" id="1"/>
         </Task>
         <Task MainProgram="N">
-          <Header Description="st1" ISN_2="134217733" id="2">
+          <Header Description="st1" ISN_2="134217733" LastIsn="5" id="2">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -2031,7 +2117,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737773" _time="59857" date="12/14/2020" time="16:37:37"/>
+            <LastModified _date="737773" _time="59857" date="14/12/2020" time="16:37:37"/>
           </Header>
           <Resource>
             <Columns/>
@@ -2125,7 +2211,7 @@
           </TaskForms>
         </Task>
         <Task MainProgram="N">
-          <Header Description="Delete" ISN_2="3" LastIsn="4" id="2">
+          <Header Description="Delete" ISN_2="3" LastIsn="5" id="2">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -2141,7 +2227,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737773" _time="59857" date="12/14/2020" time="16:37:37"/>
+            <LastModified _date="737773" _time="59857" date="14/12/2020" time="16:37:37"/>
           </Header>
           <ItemIsn val="16"/>
           <Resource>
@@ -2317,7 +2403,7 @@
           </Expressions>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="2" id="1"/>
           <Task MainProgram="N">
-            <Header Description="Delete Animals" ISN_2="4" LastIsn="4" id="2">
+            <Header Description="Delete Animals" ISN_2="4" LastIsn="5" id="2">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -2330,7 +2416,7 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737773" _time="59857" date="12/14/2020" time="16:37:37"/>
+              <LastModified _date="737773" _time="59857" date="14/12/2020" time="16:37:37"/>
             </Header>
             <ItemIsn val="16"/>
             <Resource>
@@ -2458,4 +2544,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
