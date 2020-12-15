@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14070.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="31"/>
+    <LastIsn val="32"/>
     <LastIsnFolder val="8"/>
   </Header>
+
   <ModelsRepository>
     <Models>
       <Object id="1" name="ID">
@@ -193,6 +195,10 @@
       <Object id="134217758" name="b2_cb">
         <PropertyList model="CTRL_GUI0_CHECKBOX"/>
       </Object>
+      <Object id="134217760" name="b2_checkbox">
+        <PropertyList model="CTRL_GUI0_CHECKBOX"/>
+      </Object>
     </Models>
   </ModelsRepository>
+
 </Application>
