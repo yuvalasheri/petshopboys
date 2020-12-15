@@ -15,4 +15,5 @@
 /CrossRef.XRF
 *.edp
 git.log
-/mydir/*.*
+/mydir
+/mydir/*
