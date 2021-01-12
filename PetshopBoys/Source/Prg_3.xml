@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737802" _time="54528" date="12/01/2021" time="15:08:48"/>
+          <LastModified _date="737802" _time="54738" date="12/01/2021" time="15:12:18"/>
         </Header>
         <ItemIsn val="20"/>
         <Resource>
@@ -199,6 +199,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <REAL_VNAME_TXT val="Product ID_456"/>
                   <INT_DIT_INFO>
                     <v>14</v>
                     <v>15</v>
