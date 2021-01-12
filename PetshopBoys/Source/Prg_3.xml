@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14071.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -31,9 +31,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737614" _time="47787" date="08/07/2020" time="13:16:27"/>
+          <LastModified _date="737802" _time="54528" date="12/01/2021" time="15:08:48"/>
         </Header>
-        <ItemIsn val="19"/>
+        <ItemIsn val="20"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="3"/>
@@ -58,6 +58,15 @@
                 <DbColumnName id="178"/>
                 <Type id="179"/>
                 <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554436" name="b1_v1">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
+                <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="1048579" name="v.Orders Exist">
@@ -240,6 +249,24 @@
                   <Modifier val="S"/>
                   <Direction val="C"/>
                 </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554452" FlowIsn="33554490" id="33554452">
+                  <Column val="33554436"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="33554491">
+                  <Type val="1"/>
+                  <Text val=" "/>
+                </Remark>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -536,6 +563,37 @@
                       <Skip val="N"/>
                     </Argument>
                   </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="33554440" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="33554433"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="33554492">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="3145756"/>
+                  <Lock val="N"/>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
                   <RetainFocus val="N"/>
@@ -868,7 +926,16 @@
             <ExpSyntax val="'P'"/>
             <ExpAttribute val="A"/>
           </Expression>
+          <Expression id="33554446">
+            <ExpSyntax val="{0,33554452}"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
+        <EVNT DESC="b1_event" FORCE_EXIT="N" id="33554433">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
         <Task MainProgram="N">
           <Header Description="Properties Form" ISN_2="2" LastIsn="5" id="3">
             <ExecutionRight comp="-1"/>
