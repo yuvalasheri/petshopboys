@@ -2,11 +2,43 @@
 <Application>
 
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14071.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="0"/>
+    <LastIsn val="5"/>
     <LastIsnFolder val="0"/>
   </Header>
+
+  <ComponentsRepository>
+    <Components>
+      <Component id="5" name="comp1">
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="3"/>
+        <CompId val="23623464-50305-17252-87ABD7A81"/>
+        <MciFile val="C:\magicxpa33\Builders\ECI\comp1\comp1.eci"/>
+        <ProjectFile val="C:\magicxpa47\Projects\petshopboys1\comp1\comp1.edp"/>
+        <CABINET_FILE val="C:\magicxpa47\Projects\comp1\comp1.ecf"/>
+        <ComponentDataObjects>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="1"/>
+            <PublicName val="City"/>
+          </Object>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="2"/>
+            <PublicName val="Customer"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="3"/>
+            <PublicName val="Employee"/>
+          </Object>
+        </ComponentDataObjects>
+      </Component>
+    </Components>
+  </ComponentsRepository>
 
 </Application>

@@ -2,13 +2,13 @@
  
 <Header>
 
-  <Version val="14071.00"/>
+  <Version val="14061.00"/>
 
   <WithIsn val="Y"/>
 
   <Exe comp="-1"/>
 
-  <LastIsn val="3"/>
+  <LastIsn val="6"/>
 
   <LastIsnFolder val="0"/>
 
@@ -18,7 +18,7 @@
  <DataSourceRepository>
   <DataObjects>
  
-<DataObject PhysicalName="Customer" Resident="N" UniqueISNConvState="12" data_source="SQLServer" id="1" name="Customer">
+<DataObject PhysicalName="City" Public="City" Resident="N" UniqueISNConvState="12" data_source="SQLServer" id="4" name="City">
 
   <Encrypt val="N"/>
 
@@ -65,6 +65,128 @@
         <_Dec id="181" val="3"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192"/>
+        <_FieldPhysical Name="ID" PIC_U="10.3" Size="8" SqlType="DOUBLE PRECISION" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="Name">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="30"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="30"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="Name"/>
+        <Type id="179" val="CHAR(30)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="Name" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="State">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="30"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="30"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="State"/>
+        <Type id="179" val="CHAR(30)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="State" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="CityID">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="CityID"/>
+      <HasHint val="N"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="Y"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="8"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="Customer" Public="Customer" Resident="N" UniqueISNConvState="12" data_source="SQLServer" id="5" name="Customer">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="N"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Owner val="dbo"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="ID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="10.3"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="ID"/>
+        <Type id="179" val="DOUBLE PRECISION"/>
+        <UserType id="180"/>
+        <_Dec id="181" val="3"/>
+        <_Whole id="182" val="10"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="ID" PIC_U="10.3" Size="8" SqlType="DOUBLE PRECISION" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -88,6 +210,7 @@
         <_Dec id="181" val="3"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192"/>
+        <_FieldPhysical Name="SalesRepEmployeeNum" PIC_U="10.3" Size="8" SqlType="DOUBLE PRECISION" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -108,6 +231,7 @@
         <DbColumnName id="178" val="VIP"/>
         <Type id="179" val="BIT"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="VIP" PIC_U="5" Size="1" SqlType="BIT" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -128,6 +252,7 @@
         <DbColumnName id="178" val="Name"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="Name" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -148,6 +273,7 @@
         <DbColumnName id="178" val="LastName"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="LastName" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -168,6 +294,7 @@
         <DbColumnName id="178" val="FirstName"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="FirstName" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -188,6 +315,7 @@
         <DbColumnName id="178" val="Phone"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="Phone" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -208,6 +336,7 @@
         <DbColumnName id="178" val="Address1"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="Address1" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -228,6 +357,7 @@
         <DbColumnName id="178" val="Address2"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="Address2" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -251,6 +381,7 @@
         <_Dec id="181" val="3"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192"/>
+        <_FieldPhysical Name="City" PIC_U="10.3" Size="8" SqlType="DOUBLE PRECISION" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -271,6 +402,7 @@
         <DbColumnName id="178" val="State"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="State" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -294,6 +426,7 @@
         <_Dec id="181" val="3"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192"/>
+        <_FieldPhysical Name="PostalCode" PIC_U="10.3" Size="8" SqlType="DOUBLE PRECISION" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -317,6 +450,7 @@
         <_Dec id="181" val="1"/>
         <_Whole id="182" val="15"/>
         <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="CreditLimit" PIC_U="N15.1" Size="18" SqlType="NUMERIC(16,1)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -348,7 +482,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Employee" Resident="N" UniqueISNConvState="12" data_source="SQLServer" id="2" name="Employee">
+<DataObject PhysicalName="Employee" Public="Employee" Resident="N" UniqueISNConvState="12" data_source="SQLServer" id="6" name="Employee">
 
   <Encrypt val="N"/>
 
@@ -395,6 +529,7 @@
         <_Dec id="181" val="3"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192"/>
+        <_FieldPhysical Name="ID" PIC_U="10.3" Size="8" SqlType="DOUBLE PRECISION" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -418,6 +553,7 @@
         <_Dec id="181" val="3"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192"/>
+        <_FieldPhysical Name="Officecode" PIC_U="10.3" Size="8" SqlType="DOUBLE PRECISION" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -441,6 +577,7 @@
         <_Dec id="181" val="3"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192"/>
+        <_FieldPhysical Name="Reportsto" PIC_U="10.3" Size="8" SqlType="DOUBLE PRECISION" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -461,6 +598,7 @@
         <DbColumnName id="178" val="Gender"/>
         <Type id="179" val="CHAR(1)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="Gender" PIC_U="1" Size="1" SqlType="CHAR(1)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -481,6 +619,7 @@
         <DbColumnName id="178" val="LastName"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="LastName" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -501,6 +640,7 @@
         <DbColumnName id="178" val="FirstName"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="FirstName" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -521,6 +661,7 @@
         <DbColumnName id="178" val="Email"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="Email" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -541,6 +682,7 @@
         <DbColumnName id="178" val="JotTitle"/>
         <Type id="179" val="CHAR(30)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="JotTitle" PIC_U="30" Size="30" SqlType="CHAR(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -560,104 +702,6 @@
       <Segments>
         <Segment>
           <Size val="8"/>
-          <Column val="1"/>
-          <Order val="A"/>
-        </Segment>
-      </Segments>
-    </Index>
-  </Indexes>
-
-  <ForeignKeys/>
-
-  <WebS/>
-
-</DataObject> 
-<DataObject PhysicalName="Entetes" Resident="N" UniqueISNConvState="12" data_source="SQLServer" id="3" name="Entetes">
-
-  <Encrypt val="N"/>
-
-  <Cache val="D"/>
-
-  <IdentifyRowModifications val="U"/>
-
-  <HasHint val="N"/>
-
-  <Cursor val="D"/>
-
-  <CheckExistence val="D"/>
-
-  <ObjectType val="T"/>
-
-  <Owner val="dbo"/>
-
-  <Position val="D"/>
-
-  <PositionIndex val="1"/>
-
-  <IndexesLastIsn val="1"/>
-
-  <MetaTreeRTIndex val="-1"/>
-
-  <Columns>
-    <Column id="1" name="ID">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Modifiable id="53" val="Y"/>
-        <Range id="98" valUnicode="\-2147483648-2147483647"/>
-        <Picture id="157" valUnicode="N10"/>
-        <NullAllowed id="166"/>
-        <NullDefault id="169"/>
-        <DatabaseDefault id="171"/>
-        <CharSet id="172" val="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="4"/>
-        <Definition id="175" val="2"/>
-        <DatabaseInformation id="177"/>
-        <DbColumnName id="178" val="ID"/>
-        <Type id="179" val="INTEGER"/>
-        <UserType id="180"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="10"/>
-        <_Negative id="192" val="Y"/>
-        <PartOfDatetime id="244"/>
-      </PropertyList>
-    </Column>
-    <Column id="2" name="LABELLE">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Modifiable id="53" val="Y"/>
-        <Range id="98"/>
-        <Picture id="157" valUnicode="30"/>
-        <NullAllowed id="166"/>
-        <NullDefault id="169"/>
-        <DatabaseDefault id="171"/>
-        <CharSet id="172" val="1"/>
-        <StoredAs id="173" val="3"/>
-        <Size id="174" val="30"/>
-        <Definition id="175" val="2"/>
-        <DatabaseInformation id="177"/>
-        <DbColumnName id="178" val="LABELLE"/>
-        <Type id="179" val="CHAR(30)"/>
-        <UserType id="180"/>
-        <PartOfDatetime id="244"/>
-      </PropertyList>
-    </Column>
-  </Columns>
-
-  <Indexes>
-    <Index id="1" name="PK_ENTETE">
-      <Mode val="S"/>
-      <Order val="T"/>
-      <Range val="Q"/>
-      <IndexType val="R"/>
-      <PhysicalName val="PK_ENTETE"/>
-      <HasHint val="N"/>
-      <Clustered val="N"/>
-      <DropOnReindex val="Y"/>
-      <Primary val="N"/>
-      <Segments>
-        <Segment>
-          <Size val="4"/>
           <Column val="1"/>
           <Order val="A"/>
         </Segment>
