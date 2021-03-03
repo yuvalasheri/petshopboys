@@ -28,9 +28,9 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737851" _time="56985" date="02/03/2021" time="15:49:45"/>
+          <LastModified _date="737852" _time="30155" date="03/03/2021" time="08:22:35"/>
         </Header>
-        <ItemIsn val="16"/>
+        <ItemIsn val="17"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -81,6 +81,16 @@
               </PropertyList>
             </Column>
             <Column id="33554437" name="menuentry">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="5"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554438" name="newmenuvir1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -224,7 +234,19 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="6" VIEWS="1">
+                <Select FieldID="33554449" FlowIsn="33554455" id="33554449">
+                  <Column val="33554438"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="7" VIEWS="1">
                   <DB comp="-1" obj="1"/>
                   <Expanded val="1"/>
                   <Condition val="Y"/>
