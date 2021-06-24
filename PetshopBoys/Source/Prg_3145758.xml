@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14072.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737659" _time="73009" date="22/08/2020" time="20:16:49"/>
+          <LastModified _date="737965" _time="37544" date="24/06/2021" time="10:25:44"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -43,8 +43,8 @@
             <Column id="3145729" name="String1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" id="1"/>
-                <Picture id="157" valUnicode="40"/>
-                <Size id="174" val="80"/>
+                <Picture id="157" valUnicode="50"/>
+                <Size id="174" val="100"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
