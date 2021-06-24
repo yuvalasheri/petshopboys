@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14070.00"/>
+    <Version val="14072.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737710" _time="45572" date="12/10/2020" time="12:39:32"/>
+          <LastModified _date="737965" _time="53254" date="24/06/2021" time="14:47:34"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -158,11 +158,46 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="33554435" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+          </LogicUnit>
+          <LogicUnit id="33554436" propagate="78">
+            <Level val="T"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="33554441">
+                  <FieldID val="503316481"/>
+                  <WithValue val="33554433"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="7" _last_test_id="7" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <Width id="23" val="229"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
@@ -195,6 +230,7 @@
                 <Data FieldID="503316481" id="43"/>
                 <ControlName id="46" val="ID_number"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
@@ -213,6 +249,7 @@
                 <Data FieldID="503316482" id="43"/>
                 <ControlName id="46" val="Name"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
@@ -231,6 +268,7 @@
                 <Data FieldID="503316483" id="43"/>
                 <ControlName id="46" val="customer"/>
                 <Style id="63" val="1"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
@@ -258,6 +296,12 @@
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="33554433">
+            <ExpSyntax val="1"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
