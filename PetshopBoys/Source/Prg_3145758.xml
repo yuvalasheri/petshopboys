@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737965" _time="41460" date="24/06/2021" time="11:31:00"/>
+          <LastModified _date="737965" _time="42782" date="24/06/2021" time="11:53:02"/>
         </Header>
-        <ItemIsn val="6"/>
+        <ItemIsn val="7"/>
         <Resource>
           <IO FieldID="3145731" id="3145729">
             <Description val="BlobXML"/>
@@ -72,6 +72,15 @@
                 <Picture id="157" valUnicode="1"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="1"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="100663301" name="ה5">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -192,6 +201,18 @@
               <LogicLine>
                 <Select FieldID="1048582" FlowIsn="1048586" id="1048582">
                   <Column val="1048580"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="100663303" FlowIsn="100663309" id="100663303">
+                  <Column val="100663301"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
