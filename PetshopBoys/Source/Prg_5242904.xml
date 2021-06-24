@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14072.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737965" _time="50422" date="24/06/2021" time="14:00:22"/>
+          <LastModified _date="737965" _time="50699" date="24/06/2021" time="14:04:59"/>
         </Header>
-        <ItemIsn val="2"/>
+        <ItemIsn val="3"/>
         <Resource>
           <DB id="5242881">
             <DataObject comp="-1" obj="1"/>
@@ -146,7 +144,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="41943043" propagate="78">
+          <LogicUnit id="42991619" propagate="78">
             <Level val="T"/>
             <Type val="P"/>
             <Scope val="S"/>
@@ -160,6 +158,14 @@
             <LogicLines>
               <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="41943045" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Hello world!" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="42991621" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="This is a task suffix" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -185,7 +191,6 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
-                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="1" _test_id="1" id="5242881">
@@ -199,7 +204,6 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="5242881" id="43"/>
                 <ControlName id="46" val="Customer ID"/>
-                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -213,7 +217,6 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
-                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="3" id="5242883">
@@ -227,7 +230,6 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="5242882" id="43"/>
                 <ControlName id="46" val="Last Name"/>
-                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
@@ -236,5 +238,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
