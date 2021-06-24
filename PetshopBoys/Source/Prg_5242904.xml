@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14072.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737965" _time="50699" date="24/06/2021" time="14:04:59"/>
+          <LastModified _date="737965" _time="52979" date="24/06/2021" time="14:42:59"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -122,6 +124,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <REAL_VNAME_TXT val="Customer ID345"/>
                   <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -135,6 +138,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <REAL_VNAME_TXT val="Last Name345"/>
                   <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -176,7 +180,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="4" _last_test_id="4" id="1">
+          <FormEntry _last_isn="5" _last_test_id="5" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Customers"/>
@@ -191,6 +195,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="1" _test_id="1" id="5242881">
@@ -204,6 +209,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="5242881" id="43"/>
                 <ControlName id="46" val="Customer ID"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -217,6 +223,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="3" id="5242883">
@@ -230,7 +237,16 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="5242882" id="43"/>
                 <ControlName id="46" val="Last Name"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="5" id="76546053">
+              <PropertyList model="CTRL_GUI0_LINE">
+                <X1 id="21" val="18"/>
+                <Y1 id="22" val="122"/>
+                <X2 id="23" val="290"/>
+                <Y2 id="24" val="14"/>
               </PropertyList>
             </Control>
           </FormEntry>
@@ -238,4 +254,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
