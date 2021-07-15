@@ -11,3 +11,4 @@
 9,bartoosenbrug,bart@promis.nl
 10,Rob Schapendonk,r.schapendonk@maqic-hands.com
 11,lebbinkb,lebbinkb@gmail.com
+12,Erwin de Vries,e.devries@promis.nl
