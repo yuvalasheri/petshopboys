@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14072.00"/>
+    <Version val="14081.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737965" _time="42782" date="24/06/2021" time="11:53:02"/>
+          <LastModified _date="738348" _time="41770" date="12/07/2022" time="11:36:10"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -75,7 +75,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="100663301" name="ה5">
+            <Column id="100663301" name="b4">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -234,7 +234,6 @@
             <Event>
               <EventType val="S"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="3145731">
@@ -475,7 +474,6 @@
               <Event>
                 <EventType val="S"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <Update FlowIsn="3145734">
@@ -501,7 +499,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="3145729"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <Update FlowIsn="3145736">
