@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14081.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="65"/>
-    <LastIsnFolder val="24"/>
+    <LastIsn val="66"/>
+    <LastIsnFolder val="25"/>
     <Folders>
+      <Folder id="82837529">
+        <Name val="wolfistuff"/>
+      </Folder>
       <Folder id="48234519">
         <Name val="KM"/>
       </Folder>
@@ -66,12 +70,14 @@
       </Folder>
     </Folders>
   </Header>
+
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
       <Program id="3145758"/>
       <Program id="33554485"/>
       <Program id="503316524"/>
+      <Program FolderIsn="82837529" id="82837570"/>
       <Program FolderIsn="48234519" id="48234560"/>
       <Program FolderIsn="33554455" id="33554496"/>
       <Program FolderIsn="31457298" id="31457317"/>
@@ -116,4 +122,5 @@
       <Program FolderIsn="4" id="14680126"/>
     </Programs>
   </ProgramsRepositoryOutLine>
+
 </Application>
