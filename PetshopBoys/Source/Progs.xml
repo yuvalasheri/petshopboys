@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Application>
-
   <Header>
     <Version val="14081.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="64"/>
-    <LastIsnFolder val="23"/>
+    <LastIsn val="65"/>
+    <LastIsnFolder val="24"/>
     <Folders>
       <Folder id="48234519">
         <Name val="KM"/>
+      </Folder>
+      <Folder id="33554455">
+        <Name val="yuval"/>
       </Folder>
       <Folder id="31457298">
         <Name val="MSE2"/>
@@ -31,9 +33,6 @@
       </Folder>
       <Folder id="3145739">
         <Name val="MG-Customer"/>
-      </Folder>
-      <Folder id="5242891">
-        <Name val="NS -customers"/>
       </Folder>
       <Folder id="10">
         <Name val="KR-Customer"/>
@@ -62,9 +61,11 @@
       <Folder id="4">
         <Name val="General"/>
       </Folder>
+      <Folder id="5242891">
+        <Name val="NS -customers"/>
+      </Folder>
     </Folders>
   </Header>
-
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
@@ -72,6 +73,7 @@
       <Program id="33554485"/>
       <Program id="503316524"/>
       <Program FolderIsn="48234519" id="48234560"/>
+      <Program FolderIsn="33554455" id="33554496"/>
       <Program FolderIsn="31457298" id="31457317"/>
       <Program FolderIsn="31457298" id="1048618"/>
       <Program FolderIsn="1048594" id="1048613"/>
@@ -114,5 +116,4 @@
       <Program FolderIsn="4" id="14680126"/>
     </Programs>
   </ProgramsRepositoryOutLine>
-
 </Application>
