@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
-    <Version val="14071.00"/>
+    <Version val="14090.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
         <Header Description="Products List" ISN_2="1" LastIsn="5" id="3">
+          <LastModified _date="738635" _time="34432" date="25/04/2023" time="09:33:52"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +32,6 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737802" _time="54899" date="01/12/2021" time="15:14:59"/>
         </Header>
         <ItemIsn val="21"/>
         <Resource>
@@ -302,7 +304,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="1"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="8">
@@ -355,7 +356,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="2"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="9">
@@ -409,7 +409,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="3"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="11" FlowIsn="45" id="11">
@@ -535,7 +534,6 @@
               <EventType val="I"/>
               <InternalEventID val="42"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="29">
@@ -563,7 +561,6 @@
               <PublicObject comp="-1" obj="4"/>
             </Event>
             <TXT val="btn.View"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="57">
@@ -604,25 +601,6 @@
               <EventType val="U"/>
               <PublicObject comp="-1" obj="33554433"/>
             </Event>
-            <Expanded val="1"/>
-            <LogicLines>
-              <LogicLine>
-                <CallTask FlowIsn="33554492">
-                  <OperationType val="P"/>
-                  <Event>
-                    <EventType val="N"/>
-                  </Event>
-                  <TaskID comp="-1" obj="3145756"/>
-                  <Lock val="N"/>
-                  <Wait val="Y"/>
-                  <SyncData val="N"/>
-                  <RetainFocus val="N"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </CallTask>
-              </LogicLine>
-            </LogicLines>
           </LogicUnit>
           <LogicUnit id="67108872" propagate="78">
             <Level val="H"/>
@@ -635,7 +613,6 @@
               <EventType val="U"/>
               <PublicObject comp="-1" obj="67108865"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="67108923">
@@ -998,6 +975,7 @@
         </EVNT>
         <Task MainProgram="N">
           <Header Description="Properties Form" ISN_2="2" LastIsn="5" id="3">
+            <LastModified _date="737802" _time="54899" date="12/01/2021" time="15:14:59"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1014,7 +992,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737802" _time="54899" date="01/12/2021" time="15:14:59"/>
           </Header>
           <ItemIsn val="21"/>
           <Resource>
@@ -1167,7 +1144,6 @@
                 <LogicLine>
                   <LNK Direction="D" EVL_CND="R" FlowIsn="14" Key="1" Mode="R" SortType="15" VIEW="3" VIEWS="1">
                     <DB comp="-1" obj="3"/>
-                    <Expanded val="1"/>
                     <Condition val="Y"/>
                   </LNK>
                 </LogicLine>
@@ -1276,7 +1252,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="Description"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="8" FlowIsn="19" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1299,7 +1274,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="Price $"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="9" FlowIsn="20" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1322,7 +1296,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="Stock Qty"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="10" FlowIsn="21" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
@@ -1346,7 +1319,6 @@
                 <PublicObject comp="-1" obj="1"/>
               </Event>
               <TXT val="btn.OK"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="26">
@@ -1373,7 +1345,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="3145730"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <CallTask FlowIsn="3145756">
@@ -1404,7 +1375,6 @@
                 <EventType val="S"/>
                 <KeyCombinationID val="61"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <CallTask FlowIsn="1048604">
@@ -1435,7 +1405,6 @@
                 <EventType val="S"/>
                 <KeyCombinationID val="129"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="3145758">
@@ -1715,6 +1684,7 @@
           <VarRangeInfo Mode="E" VarRangeVeeIsn="4" id="1"/>
           <Task MainProgram="N">
             <Header Description="NewSubtask" ISN_2="3145732" LastIsn="5" id="3">
+              <LastModified _date="737802" _time="54899" date="12/01/2021" time="15:14:59"/>
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -1727,7 +1697,6 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737802" _time="54899" date="01/12/2021" time="15:14:59"/>
             </Header>
             <ItemIsn val="21"/>
             <Resource>
@@ -1844,7 +1813,6 @@
                 <Event>
                   <EventType val="S"/>
                 </Event>
-                <Expanded val="1"/>
                 <LogicLines>
                   <LogicLine>
                     <CallTask FlowIsn="3145730">
@@ -1902,6 +1870,7 @@
             </TaskForms>
             <Task MainProgram="N">
               <Header Description="NewNewSubSubtask" ISN_2="3145733" LastIsn="5" id="3">
+                <LastModified _date="737802" _time="54899" date="12/01/2021" time="15:14:59"/>
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -1914,7 +1883,6 @@
                 <External val="N"/>
                 <FormType val="N"/>
                 <DotNetObjectExists val="N"/>
-                <LastModified _date="737802" _time="54899" date="01/12/2021" time="15:14:59"/>
               </Header>
               <Resource>
                 <Columns/>
@@ -2010,6 +1978,7 @@
           </Task>
           <Task MainProgram="N">
             <Header Description="subtask1" ISN_2="1048580" LastIsn="5" id="3">
+              <LastModified _date="737802" _time="54899" date="12/01/2021" time="15:14:59"/>
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -2022,7 +1991,6 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737802" _time="54899" date="01/12/2021" time="15:14:59"/>
             </Header>
             <Resource>
               <Columns/>
@@ -2116,6 +2084,7 @@
             </TaskForms>
             <Task MainProgram="N">
               <Header Description="subtask2" ISN_2="1048581" LastIsn="5" id="3">
+                <LastModified _date="737802" _time="54899" date="12/01/2021" time="15:14:59"/>
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -2128,7 +2097,6 @@
                 <External val="N"/>
                 <FormType val="N"/>
                 <DotNetObjectExists val="N"/>
-                <LastModified _date="737802" _time="54899" date="01/12/2021" time="15:14:59"/>
               </Header>
               <Resource>
                 <Columns/>
@@ -2225,6 +2193,7 @@
         </Task>
         <Task MainProgram="N">
           <Header Description="Delete" ISN_2="3" LastIsn="5" id="3">
+            <LastModified _date="737802" _time="54899" date="12/01/2021" time="15:14:59"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -2240,7 +2209,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737802" _time="54899" date="01/12/2021" time="15:14:59"/>
           </Header>
           <ItemIsn val="21"/>
           <Resource>
@@ -2389,4 +2357,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>

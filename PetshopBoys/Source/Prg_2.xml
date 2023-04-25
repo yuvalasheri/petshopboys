@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14070.00"/>
+    <Version val="14090.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -14,6 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Customers List" ISN_2="1" LastIsn="5" id="2">
+          <LastModified _date="738635" _time="34390" date="25/04/2023" time="09:33:10"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -31,7 +32,6 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737774" _time="57769" date="15/12/2020" time="16:02:49"/>
         </Header>
         <ItemIsn val="19"/>
         <Resource>
@@ -270,7 +270,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="1"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="8">
@@ -323,7 +322,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="2"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="9">
@@ -377,7 +375,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="3"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="11" FlowIsn="47" id="11">
@@ -503,7 +500,6 @@
               <EventType val="I"/>
               <InternalEventID val="42"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="44">
@@ -530,7 +526,6 @@
               <PublicObject comp="-1" obj="2"/>
             </Event>
             <TXT val="btn.Animals"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="46">
@@ -573,7 +568,6 @@
               <PublicObject comp="-1" obj="4"/>
             </Event>
             <TXT val="btn.View"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="60">
@@ -982,6 +976,7 @@
         </EVNT>
         <Task MainProgram="N">
           <Header Description="Properties Form" ISN_2="2" LastIsn="5" id="2">
+            <LastModified _date="738635" _time="34390" date="25/04/2023" time="09:33:10"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -998,7 +993,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737774" _time="54140" date="15/12/2020" time="15:02:20"/>
           </Header>
           <ItemIsn val="19"/>
           <Resource>
@@ -1151,7 +1145,6 @@
                 <LogicLine>
                   <LNK Direction="D" EVL_CND="R" FlowIsn="14" Key="1" Mode="R" SortType="15" VIEW="3" VIEWS="1">
                     <DB comp="-1" obj="1"/>
-                    <Expanded val="1"/>
                     <Condition val="Y"/>
                   </LNK>
                 </LogicLine>
@@ -1326,7 +1319,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="First Name"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="8" FlowIsn="19" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1349,7 +1341,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="Last Name"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="9" FlowIsn="20" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1372,7 +1363,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="Phone Number"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="10" FlowIsn="21" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1395,7 +1385,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="House Number"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="11" FlowIsn="22" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1418,7 +1407,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="Street"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="12" FlowIsn="23" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1441,7 +1429,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="City"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="13" FlowIsn="24" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1464,12 +1451,11 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="Zip Code"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="14" FlowIsn="25" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="N"/>
-                    <Condition Exp="22"/>
+                    <Condition val="Y"/>
                     <Modifier val="B"/>
                     <Direction val="F"/>
                   </STP>
@@ -1488,7 +1474,6 @@
                 <PublicObject comp="-1" obj="1"/>
               </Event>
               <TXT val="btn.OK"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="26">
@@ -1941,6 +1926,7 @@
         </Task>
         <Task MainProgram="N">
           <Header Description="st1" ISN_2="134217733" LastIsn="5" id="2">
+            <LastModified _date="737774" _time="54140" date="15/12/2020" time="15:02:20"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1953,7 +1939,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737774" _time="54140" date="15/12/2020" time="15:02:20"/>
           </Header>
           <Resource>
             <Columns/>
@@ -2048,6 +2033,7 @@
         </Task>
         <Task MainProgram="N">
           <Header Description="Delete" ISN_2="3" LastIsn="5" id="2">
+            <LastModified _date="737774" _time="54140" date="15/12/2020" time="15:02:20"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -2063,7 +2049,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737774" _time="54140" date="15/12/2020" time="15:02:20"/>
           </Header>
           <ItemIsn val="19"/>
           <Resource>
@@ -2201,7 +2186,6 @@
               <Event>
                 <EventType val="S"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <CallTask FlowIsn="5">
@@ -2240,6 +2224,7 @@
           <VarRangeInfo Mode="E" VarRangeVeeIsn="2" id="1"/>
           <Task MainProgram="N">
             <Header Description="Delete Animals" ISN_2="4" LastIsn="5" id="2">
+              <LastModified _date="737774" _time="54140" date="15/12/2020" time="15:02:20"/>
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -2252,7 +2237,6 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737774" _time="54140" date="15/12/2020" time="15:02:20"/>
             </Header>
             <ItemIsn val="19"/>
             <Resource>

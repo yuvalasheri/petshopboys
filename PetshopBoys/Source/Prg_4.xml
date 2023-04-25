@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
-    <Version val="14070.00"/>
+    <Version val="14090.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
         <Header Description="Customer Animals List" ISN_2="1" LastIsn="3" id="4">
+          <LastModified _date="738635" _time="34410" date="25/04/2023" time="09:33:30"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +32,6 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737747" _time="77200" date="11/18/2020" time="21:26:40"/>
         </Header>
         <ItemIsn val="18"/>
         <Resource>
@@ -267,7 +269,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="1"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="8">
@@ -324,7 +325,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="2"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="9">
@@ -382,7 +382,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="3"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="6" FlowIsn="10" id="6">
@@ -466,7 +465,6 @@
               <EventType val="U"/>
               <PublicObject comp="-1" obj="1"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="44">
@@ -506,7 +504,6 @@
               <PublicObject comp="-1" obj="4"/>
             </Event>
             <TXT val="btn.View"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="65">
@@ -540,7 +537,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="301989896" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+          <LogicUnit id="301989896" propagate="78">
             <Level val="H"/>
             <Type val="U"/>
             <Scope val="S"/>
@@ -551,27 +548,8 @@
               <EventType val="U"/>
               <PublicObject comp="-1" obj="301989890"/>
             </Event>
-            <Expanded val="1"/>
-            <LogicLines>
-              <LogicLine>
-                <CallTask FlowIsn="301989954">
-                  <OperationType val="P"/>
-                  <Event>
-                    <EventType val="N"/>
-                  </Event>
-                  <TaskID comp="-1" obj="3145756"/>
-                  <Lock val="N"/>
-                  <Wait val="Y"/>
-                  <SyncData val="N"/>
-                  <RetainFocus val="N"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </CallTask>
-              </LogicLine>
-            </LogicLines>
           </LogicUnit>
-          <LogicUnit id="134217736" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+          <LogicUnit id="134217736" propagate="78">
             <Level val="H"/>
             <Type val="U"/>
             <Scope val="S"/>
@@ -582,7 +560,6 @@
               <EventType val="U"/>
               <PublicObject comp="-1" obj="134217730"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="134217794">
@@ -904,7 +881,8 @@
         </EVNT>
         <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="1"/>
         <Task MainProgram="N">
-          <Header Description="Properties Form" ISN_2="2" LastIsn="2" id="4">
+          <Header Description="Properties Form" ISN_2="2" LastIsn="3" id="4">
+            <LastModified _date="737747" _time="77200" date="18/11/2020" time="21:26:40"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -922,7 +900,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737747" _time="77200" date="11/18/2020" time="21:26:40"/>
           </Header>
           <ItemIsn val="18"/>
           <Resource>
@@ -1100,7 +1077,6 @@
                 <LogicLine>
                   <LNK Direction="D" EVL_CND="R" FlowIsn="14" Key="1" Mode="R" SortType="15" VIEW="4" VIEWS="2">
                     <DB comp="-1" obj="2"/>
-                    <Expanded val="1"/>
                     <Condition val="Y"/>
                   </LNK>
                 </LogicLine>
@@ -1237,7 +1213,6 @@
                 <EventType val="S"/>
               </Event>
               <TXT val="Animal Type"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="Y" Exp="9" FlowIsn="20" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
@@ -1261,7 +1236,6 @@
                 <PublicObject comp="-1" obj="1"/>
               </Event>
               <TXT val="btn.OK"/>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="26">
@@ -1509,6 +1483,7 @@
         </Task>
         <Task MainProgram="N">
           <Header Description="Delete" ISN_2="3" LastIsn="3" id="4">
+            <LastModified _date="737747" _time="77200" date="18/11/2020" time="21:26:40"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1525,7 +1500,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737747" _time="77200" date="11/18/2020" time="21:26:40"/>
           </Header>
           <ItemIsn val="18"/>
           <Resource>
@@ -1713,4 +1687,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
