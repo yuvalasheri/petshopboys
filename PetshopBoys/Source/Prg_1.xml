@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14080.00"/>
+    <Version val="14090.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -14,6 +14,7 @@
     <Programs>
       <Task MainProgram="Y">
         <Header Description="Main Program" ISN_2="1" LastIsn="4" id="1">
+          <LastModified _date="738650" _time="41825" date="10/05/2023" time="11:37:05"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -28,7 +29,6 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738146" _time="51742" date="22/12/2021" time="14:22:22"/>
         </Header>
         <ItemIsn val="18"/>
         <Resource>
@@ -74,9 +74,9 @@
             <Column id="1048580" name="v3">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="1"/>
+                <Picture id="157" valUnicode="100"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="1"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -407,6 +407,7 @@
         </EVNT>
         <Task MainProgram="N">
           <Header Description="BG" ISN_2="2" LastIsn="4" id="1">
+            <LastModified _date="737642" _time="65428" date="05/08/2020" time="18:10:28"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -419,7 +420,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737642" _time="65428" date="05/08/2020" time="18:10:28"/>
           </Header>
           <Resource>
             <Columns/>
@@ -597,6 +597,7 @@
         </Task>
         <Task MainProgram="N">
           <Header Description="bg2" ISN_2="3" LastIsn="4" id="1">
+            <LastModified _date="737986" _time="59130" date="15/07/2021" time="16:25:30"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -609,7 +610,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737986" _time="59130" date="15/07/2021" time="16:25:30"/>
           </Header>
           <Resource>
             <Columns/>
@@ -704,6 +704,7 @@
         </Task>
         <Task MainProgram="N">
           <Header Description="BGBen" ISN_2="4" LastIsn="4" id="1">
+            <LastModified _date="737986" _time="63869" date="15/07/2021" time="17:44:29"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -716,7 +717,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737986" _time="63869" date="15/07/2021" time="17:44:29"/>
           </Header>
           <Resource>
             <Columns/>
