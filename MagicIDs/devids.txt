@@ -18,3 +18,4 @@
 16,PURWSRR003\RRuth,ralfr@magicsoftware.com
 17,Mark Aunkofer,mark.aunkofer@hausperfekt.de
 18,MarvinHorchmer,marvin.horchmer@hausperfekt.de
+19,Roger Kaminski,roger.kaminski@hausperfekt.de
