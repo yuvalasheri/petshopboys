@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Manu_Yuval" ISN_2="1" LastIsn="2" id="3145758">
-          <LastModified _date="738655" _time="38499" date="15/05/2023" time="10:41:39"/>
+          <LastModified _date="738655" _time="39030" date="15/05/2023" time="10:50:30"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="11"/>
+        <ItemIsn val="12"/>
         <Resource>
           <IO FieldID="3145731" id="3145729">
             <Description val="BlobXML"/>
@@ -108,6 +108,15 @@
                 <Picture id="157" valUnicode="100"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="100"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="234881032" name="b301">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="200"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="200"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -276,6 +285,18 @@
               <LogicLine>
                 <Select FieldID="201326603" FlowIsn="201326612" id="201326603">
                   <Column val="201326599"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="234881036" FlowIsn="234881047" id="234881036">
+                  <Column val="234881032"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
