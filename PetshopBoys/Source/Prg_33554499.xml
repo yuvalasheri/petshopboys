@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14090.00"/>
     <WithIsn val="Y"/>
@@ -8,11 +9,12 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
         <Header Description="new program" ISN_2="1" LastIsn="1" id="33554499">
-          <LastModified _date="738655" _time="40665" date="15/05/2023" time="11:17:45"/>
+          <LastModified _date="738655" _time="40871" date="15/05/2023" time="11:21:11"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -42,9 +44,9 @@
             <Column id="33554434" name="b">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="6"/>
+                <Picture id="157" valUnicode="100"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="6"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -164,4 +166,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
