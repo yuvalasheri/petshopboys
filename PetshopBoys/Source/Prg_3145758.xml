@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
-    <Version val="14081.00"/>
+    <Version val="14090.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
         <Header Description="Manu_Yuval" ISN_2="1" LastIsn="2" id="3145758">
+          <LastModified _date="738655" _time="32361" date="15/05/2023" time="08:59:21"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -25,9 +28,8 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738348" _time="42371" date="12/07/2022" time="11:46:11"/>
         </Header>
-        <ItemIsn val="8"/>
+        <ItemIsn val="9"/>
         <Resource>
           <IO FieldID="3145731" id="3145729">
             <Description val="BlobXML"/>
@@ -79,6 +81,15 @@
                 <Picture id="157" valUnicode="5"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="5"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="6" name="b5">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="1"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="1"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -220,6 +231,18 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="9" FlowIsn="16" id="9">
+                  <Column val="6"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="4" propagate="78">
@@ -302,6 +325,7 @@
         </Expressions>
         <Task MainProgram="N">
           <Header Description="Online Program" ISN_2="3145730" LastIsn="2" id="3145758">
+            <LastModified _date="738348" _time="42371" date="12/07/2022" time="11:46:11"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -314,7 +338,6 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="738348" _time="42371" date="12/07/2022" time="11:46:11"/>
           </Header>
           <ItemIsn val="8"/>
           <Resource>
@@ -642,4 +665,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
