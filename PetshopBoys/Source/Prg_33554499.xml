@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="new program" ISN_2="1" LastIsn="1" id="33554499">
-          <LastModified _date="738650" _time="40920" date="10/05/2023" time="11:22:00"/>
+          <LastModified _date="738655" _time="36785" date="15/05/2023" time="10:13:05"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -44,9 +44,9 @@
             <Column id="33554434" name="b">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="1"/>
+                <Picture id="157" valUnicode="6"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="1"/>
+                <Size id="174" val="6"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
