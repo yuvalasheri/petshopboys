@@ -21,3 +21,4 @@
 19,Roger Kaminski,roger.kaminski@hausperfekt.de
 20,Johannes Wirtz,johannes.wirtz@hausperfekt.de
 21,AzizTaoufik,abdel.aziz.taoufik@hausperfekt.de
+22,Yuval Asheri40,yuval_asheri40@magicsoftware.com
