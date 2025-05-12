@@ -16,5 +16,5 @@ jobs:
       - name: Run custom batch file
         run: |
           echo "Running custom batch file..."
-          cd "%GITHUB_WORKSPACE%"  # This changes to the repo's directory
+          cd %GITHUB_WORKSPACE%  # This changes to the repo's directory
           call my-custom-script.bat  # Run your batch file
