@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="Y">
         <Header Description="Main Program" ISN_2="1" LastIsn="4" id="1">
-          <LastModified _date="739383" _time="58252" date="12/05/2025" time="16:10:52"/>
+          <LastModified _date="739383" _time="58942" date="12/05/2025" time="16:22:22"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -30,7 +30,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="21"/>
+        <ItemIsn val="22"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -119,6 +119,15 @@
               </PropertyList>
             </Column>
             <Column id="24117257" name="develop_v3">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="24117258" name="develop_v4">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -309,7 +318,19 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="10" VIEWS="1">
+                <Select FieldID="24117270" FlowIsn="24117295" id="24117270">
+                  <Column val="24117258"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="11" VIEWS="1">
                   <DB comp="-1" obj="1"/>
                   <Condition val="Y"/>
                 </LNK>
