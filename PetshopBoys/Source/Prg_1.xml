@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="Y">
         <Header Description="Main Program" ISN_2="1" LastIsn="4" id="1">
-          <LastModified _date="739383" _time="59139" date="12/05/2025" time="16:25:39"/>
+          <LastModified _date="739383" _time="59281" date="12/05/2025" time="16:28:01"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -30,7 +30,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="22"/>
+        <ItemIsn val="23"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -98,6 +98,15 @@
                 <_Whole id="182" val="5"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="24117255" name="a">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
+                <_Flip id="194"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -246,7 +255,19 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="7" VIEWS="1">
+                <Select FieldID="24117271" FlowIsn="24117277" id="24117271">
+                  <Column val="24117255"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="8" VIEWS="1">
                   <DB comp="-1" obj="1"/>
                   <Condition val="Y"/>
                 </LNK>
