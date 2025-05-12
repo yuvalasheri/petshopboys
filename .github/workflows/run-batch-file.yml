@@ -17,4 +17,4 @@ jobs:
         run: |
           echo "Running custom batch file..."
           
-          call my-custom-script.bat  # Run your batch file
+          .\my-custom-script.bat  # Run your batch file
