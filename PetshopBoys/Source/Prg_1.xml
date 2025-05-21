@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="Y">
         <Header Description="Main Program" ISN_2="1" LastIsn="4" id="1">
-          <LastModified _date="739392" _time="67314" date="21/05/2025" time="18:41:54"/>
+          <LastModified _date="739392" _time="67481" date="21/05/2025" time="18:44:41"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -30,7 +30,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="24"/>
+        <ItemIsn val="25"/>
         <Resource>
           <DB id="1048577">
             <DataObject comp="-1" obj="1"/>
@@ -116,6 +116,12 @@
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="5"/>
                 <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="24117257" name="c">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <StoredAs id="173" val="1"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -288,7 +294,19 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="9" VIEWS="1">
+                <Select FieldID="24117273" FlowIsn="24117289" id="24117273">
+                  <Column val="24117257"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <LNK Direction="A" EVL_CND="R" FlowIsn="1048581" Mode="R" SortType="1048582" VIEW="10" VIEWS="1">
                   <DB comp="-1" obj="1"/>
                   <Condition val="Y"/>
                 </LNK>
