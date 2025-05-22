@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="Y">
         <Header Description="Main Program" ISN_2="1" LastIsn="4" id="1">
-          <LastModified _date="739392" _time="67481" date="21/05/2025" time="18:44:41"/>
+          <LastModified _date="739393" _time="40245" date="22/05/2025" time="11:10:45"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -120,8 +120,8 @@
             </Column>
             <Column id="24117257" name="c">
               <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <StoredAs id="173" val="1"/>
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
           </Columns>
