@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="14090.00"/>
     <WithIsn val="Y"/>
@@ -8,11 +9,12 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
         <Header Description="Manu_Yuval" ISN_2="1" LastIsn="2" id="3145758">
-          <LastModified _date="738655" _time="39211" date="15/05/2023" time="10:53:31"/>
+          <LastModified _date="739393" _time="40807" date="22/05/2025" time="11:20:07"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -383,7 +385,7 @@
         <TaskForms>
           <FormEntry CLSS="1" id="3145730">
             <PropertyList model="FORM_MERGE">
-              <FileName id="4" val="%Applic_Root_Folder%Template1.txt"/>
+              <FileName id="4" val="C:\magicxpa49\Projects\psb10\PetshopBoys\resources\Colors.ENG"/>
               <TagsTable id="7">
                 <MERGE_PARM FieldID="3145729" PIC_U="40" TXT_U="String1" id="1"/>
                 <MERGE_PARM FieldID="3145730" PIC_U="40" TXT_U="String2" id="2"/>
@@ -747,4 +749,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
