@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="Y">
         <Header Description="Main Program" ISN_2="1" LastIsn="4" id="1">
-          <LastModified _date="739393" _time="40245" date="22/05/2025" time="11:10:45"/>
+          <LastModified _date="739393" _time="40418" date="22/05/2025" time="11:13:38"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -54,9 +54,9 @@
             <Column id="1048578" name="G-Dialog Yes">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="20"/>
+                <Picture id="157" valUnicode="18"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="20"/>
+                <_Whole id="182" val="18"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -121,6 +121,10 @@
             <Column id="24117257" name="c">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="5"/>
+                <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
