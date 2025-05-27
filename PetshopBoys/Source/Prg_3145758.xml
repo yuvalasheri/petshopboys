@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Manu_Yuval" ISN_2="1" LastIsn="2" id="3145758">
-          <LastModified _date="739398" _time="61431" date="27/05/2025" time="17:03:51"/>
+          <LastModified _date="739398" _time="61851" date="27/05/2025" time="17:10:51"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -132,7 +132,10 @@
             <Column id="24117257" name="a">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
                 <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
+                <_Flip id="194"/>
               </PropertyList>
             </Column>
           </Columns>
