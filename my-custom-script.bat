@@ -1,5 +1,5 @@
 
-cd C:\MagicProjects\checkpetshopboys\Checker
+cd C:\MagicProjects\checkpetshopboys\Checker 
 "c:\magicxpa411\Mgxpastudioservices.exe"  /AutomaticProcessingSequenceFile=C:\\MagicProjects\\checkpetshopboys\\Checker\\petshopboyscheckproject.txt
 
 findstr "Errors" "petshopboysCheckerOutput.txt" >ErrorOutput.txt
