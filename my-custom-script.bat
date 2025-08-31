@@ -10,6 +10,7 @@ if errorlevel 1 goto error
 
 cd C:\MagicProjects\checkpetshopboys\build
 "c:\magicxpa411\Mgxpastudioservices.exe"  /AutomaticProcessingSequenceFile=C:\\MagicProjects\\checkpetshopboys\\build\\petshopboysbuildproject.txt
+"c:\magicxpa411\mgxparuntime.exe" /DeploymentMode = B
 
 exit 0
 
